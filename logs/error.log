@@ -1,0 +1,42 @@
+[Thu Jan 24 22:12:31 2013] [error] [client 127.0.0.1] script '/var/www/sft.loc/web/index.php' not found or unable to stat
+[Thu Jan 24 22:12:31 2013] [error] [client 127.0.0.1] script '/var/www/sft.loc/web/index.php' not found or unable to stat
+[Thu Jan 24 22:12:31 2013] [error] [client 127.0.0.1] script '/var/www/sft.loc/web/index.php' not found or unable to stat
+[Thu Jan 24 22:13:22 2013] [error] [client 127.0.0.1] script '/var/www/sft.loc/web/index.php' not found or unable to stat
+[Thu Jan 24 22:13:22 2013] [error] [client 127.0.0.1] script '/var/www/sft.loc/web/index.php' not found or unable to stat
+[Thu Jan 24 22:13:31 2013] [error] [client 127.0.0.1] script '/var/www/sft.loc/web/index.php' not found or unable to stat
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/var/www/sft.loc/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/database/sfDoctrineDatabase.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php on line 95
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   2. sfContext::createInstance() /var/www/sft.loc/prj/web/index.php:7
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   3. sfContext->initialize() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:60
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   4. sfContext->loadFactories() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:77
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   5. sfDatabaseManager->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:143
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   6. sfDatabaseManager->initialize() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:810
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   7. sfDatabaseManager->loadConfiguration() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:819
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   8. include() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:825
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   9. sfAutoload->autoload() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:0
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP  10. sfAutoload->loadClass() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:82
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/var/www/sft.loc/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/database/sfDoctrineDatabase.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php on line 95
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   2. sfContext::createInstance() /var/www/sft.loc/prj/web/index.php:7
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   3. sfContext->initialize() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:60
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   4. sfContext->loadFactories() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:77
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   5. sfDatabaseManager->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:143
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   6. sfDatabaseManager->initialize() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:810
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   7. sfDatabaseManager->loadConfiguration() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:819
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   8. include() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:825
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP   9. sfAutoload->autoload() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:0
+[Fri Jan 25 12:42:18 2013] [error] [client 127.0.0.1] PHP  10. sfAutoload->loadClass() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:82
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/var/www/sft.loc/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/database/sfDoctrineDatabase.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php on line 95
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   2. sfContext::createInstance() /var/www/sft.loc/prj/web/index.php:7
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   3. sfContext->initialize() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:60
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   4. sfContext->loadFactories() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:77
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   5. sfDatabaseManager->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:143
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   6. sfDatabaseManager->initialize() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:810
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   7. sfDatabaseManager->loadConfiguration() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:819
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   8. include() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:825
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP   9. sfAutoload->autoload() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:0
+[Sat Jan 26 11:55:29 2013] [error] [client 127.0.0.1] PHP  10. sfAutoload->loadClass() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:82
