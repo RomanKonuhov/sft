@@ -1,0 +1,226 @@
+options:
+  charset: utf8
+
+Page:
+  tableName: page
+  actAs: { Timestampable: ~ }
+  columns:
+    id: { type: integer(5), unsigned: false, notnull: true, primary: true, autoincrement: true }
+    header: { type: varchar(255), default: '' }
+    type: { type: varchar(32), notnull: true, default: 'user' }
+    meta_keywords: { type: clob, default: '' }
+    meta_description: { type: clob, default: '' }
+    meta_indexing: { type: boolean, default: true }
+
+
+Block:
+  tableName: block
+  actAs: { Timestampable: ~ }
+  columns:
+    id: { type: integer(5), fixed: false, unsigned: true, notnull: true, primary: true, autoincrement: true }
+    parent_id: { type: integer(5), unsigned: true, default: 0 }
+    page_id: { type: integer(5), unsigned: true, notnull: true }
+    block_link_id: { type: integer(5), unsigned: true, default: 0 }
+    header: { type: string(255), default: '' }
+    type:
+      type: enum(14)
+      values:
+        - text
+        - text_list
+        - media
+        - search
+        - menu
+        - text_list_link
+        - media_link
+      default: text
+      notnull: true
+    sort:
+      type: enum(8)
+      values: [time, hand, alphabet]
+      default: hand
+      notnull: true
+    sort_type:
+      type: enum(4)
+      values: [asc, desc]
+      default: asc
+      notnull: true
+    visible: { type: boolean, default: true }
+    css: { type: clob, default: '' }
+    by_default: { type: boolean, default: true }
+    azlist_show: { type: boolean, default: false }
+    item_per_page: { type: integer, notnull: true, default: 0 }
+    s_order: { type: integer(5), unsigned: true, default: 0 }
+  indexes:
+    block_page_id:
+      fields: [page_id]
+    block_parent_id:
+      fields: [parent_id]
+  relations:
+    Page:
+      local: page_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: Blocks
+      onDelete: CASCADE
+      onUpdate: CASCADE
+
+
+BlockLink:
+  tableName: block_link
+  columns:
+    id: { type: integer(5), unsigned: true, notnull: true, primary: true, autoincrement: true }
+    block_id: { type: integer(5), unsigned: true, default: 0 }
+    entity_id: { type: integer(5), unsigned: true, default: 0 }
+    s_order: { type: integer(5), unsigned: true, default: 0 }
+  indexes:
+    block_link_entity_id:
+      fields: [entity_id]
+  relations:
+    Block:
+      local: block_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: BlockLinks
+      onDelete: CASCADE
+      onUpdate: CASCADE
+
+
+Text:
+  tableName: text
+  actAs: { Timestampable: ~ }
+  columns:
+    id: { type: integer(5), unsigned: true, notnull: true, primary: true, autoincrement: true }
+    block_id: { type: integer(5), unsigned: true, notnull: true }
+    content: { type: clob, default: '' }
+  relations:
+    Block:
+      local: block_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: Texts
+      onDelete: CASCADE
+      onUpdate: CASCADE
+
+
+Media:
+  tableName: media
+  actAs: { Timestampable: ~ }
+  columns:
+    id: { type: integer(5), unsigned: true, notnull: true, primary: true, autoincrement: true }
+    block_id: { type: integer(5), unsigned: true, notnull: true }
+    filename: { type: varchar(255), notnull: true }
+    filepath: { type: varchar, notnull: true }
+    mimetype: { type: varchar(32) }
+    filesize: { type: integer }
+    metadata: { type: clob }
+    dtype: { type: integer(1) }
+    date: { type: timestamp }
+    visible: { type: boolean, default: true }
+    s_order: { type: integer, default: 0 }
+  relations:
+    Block:
+      local: block_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: Medias
+      onDelete: CASCADE
+      onUpdate: CASCADE
+
+
+TextList:
+  tableName: text_list
+  actAs: { Timestampable: ~ }
+  columns:
+    id: { type: integer(5), unsigned: true, notnull: true, primary: true, autoincrement: true }
+    block_id: { type: integer(5), unsigned: true, notnull: true }
+    header: { type: varchar(255), default: '' }
+    description: { type: clob, default: '' }
+    content: { type: clob, default: '' }
+    author: { type: varchar(255), default: '' }
+    date: { type: timestamp }
+    thumb: { type: varchar, default: '' }
+    visible: { type: boolean, default: true }
+    s_order: { type: integer, default: 0 }
+    meta_keywords: { type: clob, default: '' }
+    meta_description: { type: clob, default: '' }
+    meta_indexing: { type: boolean, default: true }
+  relations:
+    Block:
+      local: block_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: TextLists
+      onDelete: CASCADE
+      onUpdate: CASCADE
+
+
+Menu:
+  tableName: menu
+  columns:
+    id: { type: integer(5), unsigned: true, notnull: true, primary: true, autoincrement: true }
+    parent_id: { type: integer(5), unsigned: true, notnull: true }
+    block_id: { type: integer(5), unsigned: true, notnull: true }
+    alias: { type: varchar(255), default: '' }
+    type:
+      type: enum(10)
+      values:
+        - horizontal
+        - vertical
+      default: 'horizontal'
+      notnull: true
+    s_order: { type: integer, default: 0 }
+  indexes:
+    menu_parent_id:
+      fields: [parent_id]
+  relations:
+    Page:
+      local: block_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: Menus
+      onDelete: CASCADE
+      onUpdate: CASCADE
+
+
+Comment:
+  tableName: comment
+  actAs: { Timestampable: ~ }
+  columns:
+    id: { type: integer(5), unsigned: true, notnull: true, primary: true, autoincrement: true }
+    block_id: { type: integer(5), unsigned: true, default: 0 }
+    username: { type: string(255), default: 'Anonymous', notnull: true }
+    content: { type: clob,  notnull: true, default: '' }
+    visible: { type: boolean, default: true }
+  relations:
+    Block:
+      local: block_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: Texts
+      onDelete: CASCADE
+      onUpdate: CASCADE
+
+
+Capcha:
+  tableName: capcha
+  columns:
+    id: { type: integer(5), unsigned: true, notnull: true, primary: true, autoincrement: true }
+    picture: { type: string(255), notnull: true }
+    value: { type: string(10), default: '' }
+
+
+Settings:
+  tableName: settings
+  columns:
+    id: { type: integer(5), unsigned: true, notnull: true, primary: true, autoincrement: true }
+    header: { type: varchar(255), default: '' }
+    var: { type: varchar(255), notnull: true }
+    value: { type: varchar(255), notnull: true }
+    checkbox: { type: boolean, default: true }

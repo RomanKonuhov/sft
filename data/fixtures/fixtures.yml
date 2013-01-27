@@ -1,17 +1,89 @@
-# # Populate this file with data to be loaded by your ORM's *:data-load task.
-# # You can create multiple files in this directory (i.e. 010_users.yml,
-# # 020_articles.yml, etc) which will be loaded in alphabetical order.
-# # 
-# # See documentation for your ORM's *:data-load task for more information.
-# 
-# User:
-#   fabien:
-#     username: fabien
-#     password: changeme
-#     name:     Fabien Potencier
-#     email:    fabien.potencier@symfony-project.com
-#   kris:
-#     username: Kris.Wallsmith
-#     password: changeme
-#     name:     Kris Wallsmith
-#     email:    kris.wallsmith@symfony-project.com
+Page:
+  page_index:
+    header: Index page
+    type: index
+    meta_keywords: meta keywords for index page
+    meta_description: meta description for index page
+    meta_indexing: true
+
+Block:
+  block_header:
+    Page: page_index
+    parent_id: 0
+    block_link_id: 0
+    header: Picture in the header
+    type: text
+    sort: hand
+    sort_type: asc
+    visible: true
+    css: >
+      {"width":"1004px","height":"300px","position":"relative","float":"none","display":"block","left":0,"top":0,"margin-left":0,"margin-right":0,"margin-top":0,"margin-bottom":0,"padding-left":0,"padding-right":0,"padding-top":0,"padding-bottom":0,"color":"default","font-size":"default","font-weight":"default","font-face":"default","background-color":"default"}
+    by_default: false
+    azlist_show: false
+    item_per_page: 0
+    s_order: 0
+  block_list:
+    Page: page_index
+    parent_id: 0
+    block_link_id: 0
+    header: Picture in the header
+    type: text_list
+    sort: hand
+    sort_type: asc
+    visible: true
+    css: >
+      {"width":"600px","height":"500px", "float":"left"}
+    by_default: false
+    azlist_show: false
+    item_per_page: 0
+    s_order: 1
+
+Text:
+  text_header:
+    Block: block_header
+    content: |
+      <img src="/images/sea.jpg" width="1004px" heigth="300px">
+
+TextList:
+  textlist_list_1:
+    Block: block_list
+    header: List header 1
+    description: |
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+    content: |
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+    author: Artur
+    thumb: /images/sea.jpg
+    s_order: 0
+    meta_keywords: List meta keywords
+    meta_description: List meta description
+  textlist_list_2:
+    Block: block_list
+    header: List header 2
+    description: |
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+    content: |
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+    author: Artem
+    thumb: /images/sea.jpg
+    s_order: 1
+    meta_keywords: List meta keywords
+    meta_description: List meta description
+  textlist_list_3:
+    Block: block_list
+    header: List header 3
+    description: |
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+    content: |
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
+    author: Verona
+    thumb: /images/sea.jpg
+    s_order: 2
+    meta_keywords: List meta keywords
+    meta_description: List meta description

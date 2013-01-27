@@ -1,0 +1,13 @@
+html {
+    background: #eee;
+}
+
+body {
+    width: 1004px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.clear {
+    clear: both;
+}
