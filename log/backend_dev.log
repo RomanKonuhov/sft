@@ -1,0 +1,577 @@
+Jan 27 13:01:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 27 13:01:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 13:01:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 13:01:38 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jan 27 13:01:38 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jan 27 13:01:38 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 27 13:01:38 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 27 13:01:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 13:01:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 13:01:38 symfony [info] {sfWebDebugLogger} Configuration 102.82 ms (10)
+Jan 27 13:01:38 symfony [info] {sfWebDebugLogger} Factories 111.42 ms (1)
+Jan 27 13:01:38 symfony [info] {sfWebDebugLogger} Action "default/index" 0.14 ms (1)
+Jan 27 13:01:38 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 9.80 ms (1)
+Jan 27 13:01:38 symfony [info] {sfWebResponse} Send content (28371 o)
+Jan 27 13:01:45 symfony [info] {sfPatternRouting} Match route "block" (/block.:sf_format) for /block with parameters array (  'module' => 'block',  'action' => 'index',  'sf_format' => 'html',)
+Jan 27 13:01:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 13:01:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 13:01:45 symfony [info] {blockActions} Call "blockActions->executeIndex()"
+Jan 27 13:01:45 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 13:01:45 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT COUNT(*) AS num_results FROM block b - ()
+Jan 27 13:01:45 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/indexSuccess.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_assets.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_flashes.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_header.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_batch_actions.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_actions.php"
+Jan 27 13:01:45 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_footer.php"
+Jan 27 13:01:45 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 13:01:45 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 13:01:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 13:01:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Configuration 68.69 ms (12)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Factories 23.23 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Action "block/index" 95.69 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 19.53 ms (2)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} View "Success" for "block/index" 79.82 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_assets" 0.64 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_flashes" 0.60 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_list_header" 0.61 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_filters" 54.83 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_filters_field" 41.24 ms (15)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_list" 0.80 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_list_batch_actions" 1.10 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_list_actions" 0.78 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebDebugLogger} Partial "block/_list_footer" 0.59 ms (1)
+Jan 27 13:01:45 symfony [info] {sfWebResponse} Send content (141512 o)
+Jan 27 13:02:34 symfony [info] {sfPatternRouting} Match route "block" (/block.:sf_format) for /block with parameters array (  'module' => 'block',  'action' => 'index',  'sf_format' => 'html',)
+Jan 27 13:02:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 13:02:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 13:02:34 symfony [info] {blockActions} Call "blockActions->executeIndex()"
+Jan 27 13:02:34 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 13:02:34 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT COUNT(*) AS num_results FROM block b - ()
+Jan 27 13:02:34 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/indexSuccess.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_assets.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_flashes.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_header.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_batch_actions.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_actions.php"
+Jan 27 13:02:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_footer.php"
+Jan 27 13:02:34 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 13:02:34 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 13:02:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 13:02:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Configuration 2.09 ms (11)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Factories 25.17 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Action "block/index" 95.97 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.70 ms (2)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} View "Success" for "block/index" 86.45 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_assets" 0.66 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_flashes" 0.63 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_list_header" 0.57 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_filters" 65.91 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_filters_field" 49.28 ms (15)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_list" 0.83 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_list_batch_actions" 1.12 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_list_actions" 0.84 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebDebugLogger} Partial "block/_list_footer" 0.55 ms (1)
+Jan 27 13:02:34 symfony [info] {sfWebResponse} Send content (141583 o)
+Jan 27 17:57:33 symfony [info] {sfPatternRouting} Match route "block" (/block.:sf_format) for /block with parameters array (  'module' => 'block',  'action' => 'index',  'sf_format' => 'html',)
+Jan 27 17:57:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 17:57:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 17:57:33 symfony [info] {blockActions} Call "blockActions->executeIndex()"
+Jan 27 17:57:33 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 17:57:33 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT COUNT(*) AS num_results FROM block b - ()
+Jan 27 17:57:33 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/indexSuccess.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_assets.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_flashes.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_header.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:33 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_filters_field.php"
+Jan 27 17:57:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list.php"
+Jan 27 17:57:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_batch_actions.php"
+Jan 27 17:57:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_actions.php"
+Jan 27 17:57:34 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoBlock/templates/_list_footer.php"
+Jan 27 17:57:34 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 17:57:34 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 17:57:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 17:57:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Configuration 152.39 ms (12)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Factories 111.41 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Action "block/index" 104.77 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 30.67 ms (2)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} View "Success" for "block/index" 77.45 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_assets" 0.64 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_flashes" 0.62 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_list_header" 0.55 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_filters" 57.82 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_filters_field" 43.56 ms (15)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_list" 0.96 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_list_batch_actions" 1.12 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_list_actions" 0.93 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebDebugLogger} Partial "block/_list_footer" 0.56 ms (1)
+Jan 27 17:57:34 symfony [info] {sfWebResponse} Send content (141711 o)
+Jan 27 22:01:07 symfony [info] {sfPatternRouting} Match route "text" (/text.:sf_format) for /text with parameters array (  'module' => 'text',  'action' => 'index',  'sf_format' => 'html',)
+Jan 27 22:01:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:01:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:01:07 symfony [info] {textActions} Call "textActions->executeIndex()"
+Jan 27 22:01:07 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:01:07 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT COUNT(*) AS num_results FROM text t - ()
+Jan 27 22:01:07 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/indexSuccess.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_assets.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_flashes.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list_header.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_filters.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_filters_field.php"
+Jan 27 22:01:07 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT b.id AS b__id, b.parent_id AS b__parent_id, b.page_id AS b__page_id, b.block_link_id AS b__block_link_id, b.header AS b__header, b.type AS b__type, b.sort AS b__sort, b.sort_type AS b__sort_type, b.visible AS b__visible, b.css AS b__css, b.by_default AS b__by_default, b.azlist_show AS b__azlist_show, b.item_per_page AS b__item_per_page, b.s_order AS b__s_order, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM block b - ()
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_filters_field.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_filters_field.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_filters_field.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list_th_tabular.php"
+Jan 27 22:01:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jan 27 22:01:07 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t LIMIT 20 - ()
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list_td_batch_actions.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list_td_tabular.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list_td_actions.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list_batch_actions.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list_actions.php"
+Jan 27 22:01:07 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_list_footer.php"
+Jan 27 22:01:07 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:01:07 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:01:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 22:01:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Configuration 114.27 ms (12)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Factories 86.54 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Action "text/index" 132.39 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 56.52 ms (4)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} View "Success" for "text/index" 112.08 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_assets" 0.61 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_flashes" 0.72 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list_header" 0.67 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_filters" 58.51 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_filters_field" 51.42 ms (4)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list" 32.34 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list_th_tabular" 3.20 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list_td_batch_actions" 1.69 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list_td_tabular" 16.21 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list_td_actions" 2.22 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list_batch_actions" 1.08 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list_actions" 0.81 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebDebugLogger} Partial "text/_list_footer" 0.58 ms (1)
+Jan 27 22:01:07 symfony [info] {sfWebResponse} Send content (82517 o)
+Jan 27 22:01:15 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:01:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:01:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:01:16 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 27 22:01:16 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:01:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:01:16 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/editSuccess.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_assets.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_flashes.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_header.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_fieldset.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:01:16 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT b.id AS b__id, b.parent_id AS b__parent_id, b.page_id AS b__page_id, b.block_link_id AS b__block_link_id, b.header AS b__header, b.type AS b__type, b.sort AS b__sort, b.sort_type AS b__sort_type, b.visible AS b__visible, b.css AS b__css, b.by_default AS b__by_default, b.azlist_show AS b__azlist_show, b.item_per_page AS b__item_per_page, b.s_order AS b__s_order, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM block b - ()
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_actions.php"
+Jan 27 22:01:16 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_footer.php"
+Jan 27 22:01:16 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:01:16 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:01:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 22:01:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Configuration 1.84 ms (11)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Factories 22.71 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Action "text/edit" 91.04 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.89 ms (3)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} View "Success" for "text/edit" 84.62 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Partial "text/_assets" 0.74 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Partial "text/_flashes" 0.69 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Partial "text/_form_header" 0.76 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Partial "text/_form" 71.08 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Partial "text/_form_fieldset" 63.78 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Partial "text/_form_field" 60.15 ms (4)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Partial "text/_form_actions" 2.26 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebDebugLogger} Partial "text/_form_footer" 0.72 ms (1)
+Jan 27 22:01:16 symfony [info] {sfWebResponse} Send content (78375 o)
+Jan 27 22:01:20 symfony [info] {sfPatternRouting} Match route "text_update" (/text/:id.:sf_format) for /text/1 with parameters array (  'module' => 'text',  'action' => 'update',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:01:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:01:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:01:20 symfony [info] {textActions} Call "textActions->executeUpdate()"
+Jan 27 22:01:20 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:01:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:01:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM block b WHERE b.id = ? - (1)
+Jan 27 22:01:20 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE text SET content = ?, created_at = ?, updated_at = ? WHERE id = ? - (<img src="/images/sea.jpg" width="1004px" heigth="300px">
+, 2013-01-27 18:48:00, 2013-01-27 18:48:00, 1)
+Jan 27 22:01:21 symfony [info] {sfFrontWebController} Redirect to "http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:01:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 27 22:01:21 symfony [info] {sfWebResponse} Send header "Location: http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:01:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Configuration 1.58 ms (10)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Factories 22.69 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Action "text/update" 182.65 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 6.72 ms (4)
+Jan 27 22:01:21 symfony [info] {sfWebResponse} Send content (113 o)
+Jan 27 22:01:21 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:01:21 symfony [info] {myUser} Flag old flash messages ("notice")
+Jan 27 22:01:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:01:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:01:21 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 27 22:01:21 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:01:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:01:21 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/editSuccess.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_assets.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_flashes.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_header.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_fieldset.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:01:21 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT b.id AS b__id, b.parent_id AS b__parent_id, b.page_id AS b__page_id, b.block_link_id AS b__block_link_id, b.header AS b__header, b.type AS b__type, b.sort AS b__sort, b.sort_type AS b__sort_type, b.visible AS b__visible, b.css AS b__css, b.by_default AS b__by_default, b.azlist_show AS b__azlist_show, b.item_per_page AS b__item_per_page, b.s_order AS b__s_order, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM block b - ()
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_actions.php"
+Jan 27 22:01:21 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_footer.php"
+Jan 27 22:01:21 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:01:21 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:01:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 22:01:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Configuration 1.68 ms (11)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Factories 21.71 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Action "text/edit" 100.73 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.53 ms (3)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} View "Success" for "text/edit" 75.83 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Partial "text/_assets" 0.67 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Partial "text/_flashes" 0.69 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Partial "text/_form_header" 1.10 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Partial "text/_form" 61.70 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Partial "text/_form_fieldset" 54.62 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Partial "text/_form_field" 50.87 ms (4)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Partial "text/_form_actions" 2.39 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebDebugLogger} Partial "text/_form_footer" 0.83 ms (1)
+Jan 27 22:01:21 symfony [info] {sfWebResponse} Send content (79117 o)
+Jan 27 22:01:21 symfony [info] {myUser} Remove old flash messages ("notice")
+Jan 27 22:02:29 symfony [info] {sfPatternRouting} Match route "text_update" (/text/:id.:sf_format) for /text/1 with parameters array (  'module' => 'text',  'action' => 'update',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:02:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:02:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:02:29 symfony [info] {textActions} Call "textActions->executeUpdate()"
+Jan 27 22:02:30 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:02:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:02:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM block b WHERE b.id = ? - (1)
+Jan 27 22:02:30 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE text SET content = ?, updated_at = ? WHERE id = ? - (&lt;img src="/images/sea.jpg" width="1004px" heigth="300px"&gt;
+, 2013-01-27 22:02:30, 1)
+Jan 27 22:02:30 symfony [info] {sfFrontWebController} Redirect to "http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:02:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 27 22:02:30 symfony [info] {sfWebResponse} Send header "Location: http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:02:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Configuration 1.56 ms (10)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Factories 22.27 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Action "text/update" 143.00 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 6.77 ms (4)
+Jan 27 22:02:30 symfony [info] {sfWebResponse} Send content (113 o)
+Jan 27 22:02:30 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:02:30 symfony [info] {myUser} Flag old flash messages ("notice")
+Jan 27 22:02:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:02:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:02:30 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 27 22:02:30 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:02:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:02:30 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/editSuccess.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_assets.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_flashes.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_header.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_fieldset.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:02:30 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT b.id AS b__id, b.parent_id AS b__parent_id, b.page_id AS b__page_id, b.block_link_id AS b__block_link_id, b.header AS b__header, b.type AS b__type, b.sort AS b__sort, b.sort_type AS b__sort_type, b.visible AS b__visible, b.css AS b__css, b.by_default AS b__by_default, b.azlist_show AS b__azlist_show, b.item_per_page AS b__item_per_page, b.s_order AS b__s_order, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM block b - ()
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_actions.php"
+Jan 27 22:02:30 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_footer.php"
+Jan 27 22:02:30 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:02:30 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:02:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 22:02:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Configuration 1.66 ms (11)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Factories 21.48 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Action "text/edit" 105.33 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.96 ms (3)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} View "Success" for "text/edit" 89.97 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Partial "text/_assets" 0.63 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Partial "text/_flashes" 2.04 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Partial "text/_form_header" 0.73 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Partial "text/_form" 75.51 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Partial "text/_form_fieldset" 65.74 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Partial "text/_form_field" 60.22 ms (4)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Partial "text/_form_actions" 2.28 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebDebugLogger} Partial "text/_form_footer" 0.82 ms (1)
+Jan 27 22:02:30 symfony [info] {sfWebResponse} Send content (79157 o)
+Jan 27 22:02:30 symfony [info] {myUser} Remove old flash messages ("notice")
+Jan 27 22:05:31 symfony [info] {sfPatternRouting} Match route "text_update" (/text/:id.:sf_format) for /text/1 with parameters array (  'module' => 'text',  'action' => 'update',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:05:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:05:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:05:31 symfony [info] {textActions} Call "textActions->executeUpdate()"
+Jan 27 22:05:32 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:05:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:05:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM block b WHERE b.id = ? - (1)
+Jan 27 22:05:32 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE text SET content = ?, updated_at = ? WHERE id = ? - (fast
+fast 
+vary fast, 2013-01-27 22:02:00, 1)
+Jan 27 22:05:32 symfony [info] {sfFrontWebController} Redirect to "http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:05:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 27 22:05:32 symfony [info] {sfWebResponse} Send header "Location: http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:05:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Configuration 1.83 ms (10)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Factories 23.87 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Action "text/update" 127.43 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.88 ms (4)
+Jan 27 22:05:32 symfony [info] {sfWebResponse} Send content (113 o)
+Jan 27 22:05:32 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:05:32 symfony [info] {myUser} Flag old flash messages ("notice")
+Jan 27 22:05:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:05:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:05:32 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 27 22:05:32 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:05:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:05:32 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/editSuccess.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_assets.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_flashes.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_header.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_fieldset.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:05:32 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT b.id AS b__id, b.parent_id AS b__parent_id, b.page_id AS b__page_id, b.block_link_id AS b__block_link_id, b.header AS b__header, b.type AS b__type, b.sort AS b__sort, b.sort_type AS b__sort_type, b.visible AS b__visible, b.css AS b__css, b.by_default AS b__by_default, b.azlist_show AS b__azlist_show, b.item_per_page AS b__item_per_page, b.s_order AS b__s_order, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM block b - ()
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_actions.php"
+Jan 27 22:05:32 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_footer.php"
+Jan 27 22:05:32 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:05:32 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:05:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 22:05:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (11)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Factories 21.88 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Action "text/edit" 87.83 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.93 ms (3)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} View "Success" for "text/edit" 73.76 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Partial "text/_assets" 0.69 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Partial "text/_flashes" 0.81 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Partial "text/_form_header" 0.77 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Partial "text/_form" 60.67 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Partial "text/_form_fieldset" 53.33 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Partial "text/_form_field" 49.73 ms (4)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Partial "text/_form_actions" 2.33 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebDebugLogger} Partial "text/_form_footer" 0.67 ms (1)
+Jan 27 22:05:32 symfony [info] {sfWebResponse} Send content (79083 o)
+Jan 27 22:05:32 symfony [info] {myUser} Remove old flash messages ("notice")
+Jan 27 22:13:06 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:13:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:13:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:13:06 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 27 22:13:06 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:13:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:13:06 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/editSuccess.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_assets.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_flashes.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_header.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_fieldset.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:13:06 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT b.id AS b__id, b.parent_id AS b__parent_id, b.page_id AS b__page_id, b.block_link_id AS b__block_link_id, b.header AS b__header, b.type AS b__type, b.sort AS b__sort, b.sort_type AS b__sort_type, b.visible AS b__visible, b.css AS b__css, b.by_default AS b__by_default, b.azlist_show AS b__azlist_show, b.item_per_page AS b__item_per_page, b.s_order AS b__s_order, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM block b - ()
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_actions.php"
+Jan 27 22:13:06 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_footer.php"
+Jan 27 22:13:06 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:13:06 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:13:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 22:13:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (11)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Factories 24.26 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Action "text/edit" 101.58 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 6.26 ms (3)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} View "Success" for "text/edit" 82.27 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Partial "text/_assets" 0.65 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Partial "text/_flashes" 0.69 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Partial "text/_form_header" 0.68 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Partial "text/_form" 69.33 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Partial "text/_form_fieldset" 62.44 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Partial "text/_form_field" 58.78 ms (4)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Partial "text/_form_actions" 2.28 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebDebugLogger} Partial "text/_form_footer" 0.69 ms (1)
+Jan 27 22:13:06 symfony [info] {sfWebResponse} Send content (78491 o)
+Jan 27 22:17:22 symfony [info] {sfPatternRouting} Match route "text_update" (/text/:id.:sf_format) for /text/1 with parameters array (  'module' => 'text',  'action' => 'update',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:17:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:17:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:17:22 symfony [info] {textActions} Call "textActions->executeUpdate()"
+Jan 27 22:17:22 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:17:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:17:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM block b WHERE b.id = ? - (1)
+Jan 27 22:17:22 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE text SET content = ?, updated_at = ? WHERE id = ? - (<img src="/images/sea.jpg">, 2013-01-27 22:17:22, 1)
+Jan 27 22:17:22 symfony [info] {sfFrontWebController} Redirect to "http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:17:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 27 22:17:22 symfony [info] {sfWebResponse} Send header "Location: http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:17:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (10)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Factories 25.20 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Action "text/update" 113.34 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.51 ms (4)
+Jan 27 22:17:22 symfony [info] {sfWebResponse} Send content (113 o)
+Jan 27 22:17:22 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:17:22 symfony [info] {myUser} Flag old flash messages ("notice")
+Jan 27 22:17:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:17:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:17:22 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 27 22:17:22 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:17:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:17:22 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/editSuccess.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_assets.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_flashes.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_header.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_fieldset.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:17:22 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT b.id AS b__id, b.parent_id AS b__parent_id, b.page_id AS b__page_id, b.block_link_id AS b__block_link_id, b.header AS b__header, b.type AS b__type, b.sort AS b__sort, b.sort_type AS b__sort_type, b.visible AS b__visible, b.css AS b__css, b.by_default AS b__by_default, b.azlist_show AS b__azlist_show, b.item_per_page AS b__item_per_page, b.s_order AS b__s_order, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM block b - ()
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_actions.php"
+Jan 27 22:17:22 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_footer.php"
+Jan 27 22:17:22 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:17:22 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:17:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 22:17:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Configuration 1.67 ms (11)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Factories 22.42 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Action "text/edit" 87.25 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 4.61 ms (3)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} View "Success" for "text/edit" 79.55 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Partial "text/_assets" 0.67 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Partial "text/_flashes" 0.68 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Partial "text/_form_header" 0.67 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Partial "text/_form" 66.05 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Partial "text/_form_fieldset" 59.24 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Partial "text/_form_field" 55.84 ms (4)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Partial "text/_form_actions" 2.20 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebDebugLogger} Partial "text/_form_footer" 0.81 ms (1)
+Jan 27 22:17:22 symfony [info] {sfWebResponse} Send content (79104 o)
+Jan 27 22:17:22 symfony [info] {myUser} Remove old flash messages ("notice")
+Jan 27 22:18:46 symfony [info] {sfPatternRouting} Match route "text_update" (/text/:id.:sf_format) for /text/1 with parameters array (  'module' => 'text',  'action' => 'update',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:18:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:18:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:18:46 symfony [info] {textActions} Call "textActions->executeUpdate()"
+Jan 27 22:18:46 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:18:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:18:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM block b WHERE b.id = ? - (1)
+Jan 27 22:18:46 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE text SET content = ?, updated_at = ? WHERE id = ? - (<img src="/images/sea.jpg" width="1004px" height="300px">, 2013-01-27 22:17:00, 1)
+Jan 27 22:18:46 symfony [info] {sfFrontWebController} Redirect to "http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:18:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jan 27 22:18:46 symfony [info] {sfWebResponse} Send header "Location: http://sft.loc/backend_dev.php/text/1/edit"
+Jan 27 22:18:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (10)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Factories 26.08 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Action "text/update" 160.13 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 7.68 ms (4)
+Jan 27 22:18:46 symfony [info] {sfWebResponse} Send content (113 o)
+Jan 27 22:18:46 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 27 22:18:46 symfony [info] {myUser} Flag old flash messages ("notice")
+Jan 27 22:18:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 27 22:18:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 27 22:18:46 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 27 22:18:46 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 27 22:18:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 27 22:18:46 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/editSuccess.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_assets.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_flashes.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_header.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_fieldset.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:18:46 symfony [info] {Doctrine_Connection_Pgsql} query : SELECT b.id AS b__id, b.parent_id AS b__parent_id, b.page_id AS b__page_id, b.block_link_id AS b__block_link_id, b.header AS b__header, b.type AS b__type, b.sort AS b__sort, b.sort_type AS b__sort_type, b.visible AS b__visible, b.css AS b__css, b.by_default AS b__by_default, b.azlist_show AS b__azlist_show, b.item_per_page AS b__item_per_page, b.s_order AS b__s_order, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM block b - ()
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_field.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_actions.php"
+Jan 27 22:18:46 symfony [info] {sfPartialView} Render "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText/templates/_form_footer.php"
+Jan 27 22:18:46 symfony [info] {sfPHPView} Decorate content with "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:18:46 symfony [info] {sfPHPView} Render "/var/www/sft.loc/prj/apps/backend/templates/layout.php"
+Jan 27 22:18:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 27 22:18:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Configuration 1.73 ms (11)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Factories 21.63 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Action "text/edit" 92.37 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.99 ms (3)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} View "Success" for "text/edit" 72.16 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_assets" 0.64 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_flashes" 0.70 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_form_header" 0.67 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_form" 59.09 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_form_fieldset" 52.35 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_form_field" 49.03 ms (4)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_form_actions" 2.14 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_form_footer" 0.68 ms (1)
+Jan 27 22:18:46 symfony [info] {sfWebResponse} Send content (79154 o)
+Jan 27 22:18:46 symfony [info] {myUser} Remove old flash messages ("notice")
