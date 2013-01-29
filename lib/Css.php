@@ -8,7 +8,7 @@ class Css
         'width' => 0,
         'height' => 0,
         'border-color' => '#333',
-        'border-width' => 1,
+        'border-width' => 0,
         'border-style' => 'solid',
         'position' => 'relative',
         'float' => 'none',
@@ -101,7 +101,7 @@ class Css
         $style = array();
         
         foreach ($this->_data as $key => $value) {
-            if ($value != self::DEFAULT_VALUE || $value == 0) {
+            if ($value != self::DEFAULT_VALUE && $value != 0) {
                 $style[] = $key.':'.$value;
             }
         }

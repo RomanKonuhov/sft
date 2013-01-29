@@ -575,3 +575,29 @@ Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_form_actions" 2
 Jan 27 22:18:46 symfony [info] {sfWebDebugLogger} Partial "text/_form_footer" 0.68 ms (1)
 Jan 27 22:18:46 symfony [info] {sfWebResponse} Send content (79154 o)
 Jan 27 22:18:46 symfony [info] {myUser} Remove old flash messages ("notice")
+Jan 28 00:16:28 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 28 00:16:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 28 00:16:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 28 00:16:28 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 28 00:16:28 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 28 00:16:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 28 00:16:28 symfony [err] {sfError404Exception} Unable to find the Text object with the following parameters "array (  'id' => '1',  'sf_format' => 'html',)").
+Jan 28 00:16:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 28 00:16:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 28 00:16:28 symfony [info] {sfWebDebugLogger} Configuration 1.53 ms (10)
+Jan 28 00:16:28 symfony [info] {sfWebDebugLogger} Factories 26.86 ms (1)
+Jan 28 00:16:28 symfony [info] {sfWebDebugLogger} Action "text/edit" 118.22 ms (1)
+Jan 28 00:16:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.61 ms (2)
+Jan 29 00:08:30 symfony [info] {sfPatternRouting} Match route "text_edit" (/text/:id/edit.:sf_format) for /text/1/edit with parameters array (  'module' => 'text',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jan 29 00:08:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 29 00:08:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 29 00:08:30 symfony [info] {textActions} Call "textActions->executeEdit()"
+Jan 29 00:08:30 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+Jan 29 00:08:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.block_id AS t__block_id, t.content AS t__content, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM text t WHERE (t.id = ?) - (1)
+Jan 29 00:08:30 symfony [err] {sfError404Exception} Unable to find the Text object with the following parameters "array (  'id' => '1',  'sf_format' => 'html',)").
+Jan 29 00:08:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 29 00:08:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 29 00:08:30 symfony [info] {sfWebDebugLogger} Configuration 3.03 ms (10)
+Jan 29 00:08:30 symfony [info] {sfWebDebugLogger} Factories 52.12 ms (1)
+Jan 29 00:08:30 symfony [info] {sfWebDebugLogger} Action "text/edit" 163.06 ms (1)
+Jan 29 00:08:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 26.68 ms (2)

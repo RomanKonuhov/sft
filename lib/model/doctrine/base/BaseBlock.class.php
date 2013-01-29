@@ -20,6 +20,8 @@
  * @property integer $item_per_page
  * @property integer $s_order
  * @property Page $Page
+ * @property Block $Block
+ * @property Doctrine_Collection $Blocks
  * @property Doctrine_Collection $BlockLinks
  * @property Doctrine_Collection $Texts
  * @property Doctrine_Collection $Medias
@@ -40,6 +42,8 @@
  * @method integer             getItemPerPage()   Returns the current record's "item_per_page" value
  * @method integer             getSOrder()        Returns the current record's "s_order" value
  * @method Page                getPage()          Returns the current record's "Page" value
+ * @method Block               getBlock()         Returns the current record's "Block" value
+ * @method Doctrine_Collection getBlocks()        Returns the current record's "Blocks" collection
  * @method Doctrine_Collection getBlockLinks()    Returns the current record's "BlockLinks" collection
  * @method Doctrine_Collection getTexts()         Returns the current record's "Texts" collection
  * @method Doctrine_Collection getMedias()        Returns the current record's "Medias" collection
@@ -59,6 +63,8 @@
  * @method Block               setItemPerPage()   Sets the current record's "item_per_page" value
  * @method Block               setSOrder()        Sets the current record's "s_order" value
  * @method Block               setPage()          Sets the current record's "Page" value
+ * @method Block               setBlock()         Sets the current record's "Block" value
+ * @method Block               setBlocks()        Sets the current record's "Blocks" collection
  * @method Block               setBlockLinks()    Sets the current record's "BlockLinks" collection
  * @method Block               setTexts()         Sets the current record's "Texts" collection
  * @method Block               setMedias()        Sets the current record's "Medias" collection
@@ -85,7 +91,6 @@ abstract class BaseBlock extends sfDoctrineRecord
         $this->hasColumn('parent_id', 'integer', 5, array(
              'type' => 'integer',
              'unsigned' => true,
-             'default' => 0,
              'length' => 5,
              ));
         $this->hasColumn('page_id', 'integer', 5, array(
@@ -196,6 +201,16 @@ abstract class BaseBlock extends sfDoctrineRecord
              'foreign' => 'id',
              'onDelete' => 'CASCADE',
              'onUpdate' => 'CASCADE'));
+
+        $this->hasOne('Block', array(
+             'local' => 'parent_id',
+             'foreign' => 'id',
+             'onDelete' => 'SET NULL',
+             'onUpdate' => 'CASCADE'));
+
+        $this->hasMany('Block as Blocks', array(
+             'local' => 'id',
+             'foreign' => 'parent_id'));
 
         $this->hasMany('BlockLink as BlockLinks', array(
              'local' => 'id',

@@ -1,13 +1,66 @@
 html {
-    background: #eee;
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 5px 0;
+    padding: 0;
 }
 
 body {
     width: 1004px;
     margin: 0 auto;
     background: #fff;
+    font: normal 13px "sans-serif";
+    color: #333;
 }
 
 .clear {
     clear: both;
+}
+
+.list-item {
+    border: solid 1px #aaa;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.list-item .list-description {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+
+.list-item .list-thumb {
+    float: left;
+    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.list-item .list-author {
+    float: left;
+}
+
+.list-item .list-date {
+    float: right;
+}
+
+a, a:link, a:active, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.list-item h3 {
+    font-size: 14px;
+    display: block;
 }

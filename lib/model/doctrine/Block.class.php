@@ -12,6 +12,12 @@
  */
 class Block extends BaseBlock
 {
+    public function getEncodeHeader()
+    {
+        return Tools::urlencode($this->getHeader());
+    }
+
+
     public function getInstance()
     {
         $instance = null;
@@ -44,8 +50,8 @@ class Block extends BaseBlock
     }
 
 
-    public function getContent()
+    public function getContent($id = null)
     {
-        return $this->getInstance()->getContent();
+        return $this->getInstance()->getContent($id);
     }
 }

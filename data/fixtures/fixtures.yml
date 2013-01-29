@@ -1,6 +1,7 @@
 Page:
   page_index:
     header: Index page
+    name: index
     type: index
     meta_keywords: meta keywords for index page
     meta_description: meta description for index page
@@ -9,7 +10,7 @@ Page:
 Block:
   block_header:
     Page: page_index
-    parent_id: 0
+    parent_id: null
     block_link_id: 0
     header: Picture in the header
     type: text
@@ -17,14 +18,44 @@ Block:
     sort_type: asc
     visible: true
     css: >
-      {"width":"1004px","height":"300px","position":"relative","float":"none","display":"block","left":0,"top":0,"margin-left":0,"margin-right":0,"margin-top":0,"margin-bottom":0,"padding-left":0,"padding-right":0,"padding-top":0,"padding-bottom":0,"color":"default","font-size":"default","font-weight":"default","font-face":"default","background-color":"default"}
+      {"width":"1004px","height":"80px","position":"relative","float":"none","display":"block","left":0,"top":0,"margin-left":0,"margin-right":0,"margin-top":0,"margin-bottom":0,"padding-left":0,"padding-right":0,"padding-top":0,"padding-bottom":0,"color":"default","font-size":"default","font-weight":"default","font-face":"default","background-color":"default"}
+    by_default: false
+    azlist_show: false
+    item_per_page: 0
+    s_order: 0
+  block_footer:
+    Page: page_index
+    parent_id: null
+    block_link_id: 0
+    header: Picture in the footer
+    type: text
+    sort: hand
+    sort_type: asc
+    visible: true
+    css: >
+      {"width":"1004px","height":"80px","position":"relative","float":"none","display":"block","left":0,"top":0,"margin-left":0,"margin-right":0,"margin-top":0,"margin-bottom":0,"padding-left":0,"padding-right":0,"padding-top":0,"padding-bottom":0,"color":"default","font-size":"default","font-weight":"default","font-face":"default","background-color":"default"}
+    by_default: false
+    azlist_show: false
+    item_per_page: 0
+    s_order: 100
+  block_logo:
+    Page: page_index
+    Block: block_header
+    block_link_id: 0
+    header: Logo picture
+    type: text
+    sort: hand
+    sort_type: asc
+    visible: true
+    css: >
+      {"width":"168px","height":"50px","position":"absolute","float":"none","display":"block","left": "844px","top": "15px","margin-left":0,"margin-right":0,"margin-top":0,"margin-bottom":0,"padding-left":0,"padding-right":0,"padding-top":0,"padding-bottom":0,"color":"default","font-size":"default","font-weight":"default","font-face":"default","background-color":"default"}
     by_default: false
     azlist_show: false
     item_per_page: 0
     s_order: 0
   block_list:
     Page: page_index
-    parent_id: 0
+    parent_id: null
     block_link_id: 0
     header: Picture in the header
     type: text_list
@@ -32,7 +63,7 @@ Block:
     sort_type: asc
     visible: true
     css: >
-      {"width":"600px","height":"500px", "float":"left"}
+      {"width":"600px","float":"left","margin-left":"10px","margin-right":"10px","margin-top":"10px","margin-bottom":"10px"}
     by_default: false
     azlist_show: false
     item_per_page: 0
@@ -42,48 +73,33 @@ Text:
   text_header:
     Block: block_header
     content: |
-      <img src="/images/sea.jpg" width="1004px" heigth="300px">
+      <img src="/images/header.png" width="1004px" heigth="80px">
+  text_footer:
+    Block: block_footer
+    content: |
+      <img src="/images/footer.png" width="1004px" heigth="80px">
+  text_logo:
+    Block: block_logo
+    content: |
+      <img src="/images/logo.png">
+
+
+<?php $author = array("Artur", "Artem", "Marina", "Maxim"); ?>
 
 TextList:
-  textlist_list_1:
+<?php for ($i = 1; $i < 5; $i++): ?>
+  textlist_list_<?= $i ?>:
     Block: block_list
-    header: List header 1
+    header: List header <?= $i."\n"?>
     description: |
       Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
     content: |
       Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
       Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
       Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-    author: Artur
+    author: <?= $author[$i-1]."\n" ?>
     thumb: /images/sea.jpg
-    s_order: 0
+    s_order: <?= $i."\n" ?>
     meta_keywords: List meta keywords
     meta_description: List meta description
-  textlist_list_2:
-    Block: block_list
-    header: List header 2
-    description: |
-      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-    content: |
-      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-    author: Artem
-    thumb: /images/sea.jpg
-    s_order: 1
-    meta_keywords: List meta keywords
-    meta_description: List meta description
-  textlist_list_3:
-    Block: block_list
-    header: List header 3
-    description: |
-      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-    content: |
-      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-      Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-    author: Verona
-    thumb: /images/sea.jpg
-    s_order: 2
-    meta_keywords: List meta keywords
-    meta_description: List meta description
+<?php endfor; ?>

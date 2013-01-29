@@ -16,7 +16,7 @@ abstract class BaseBlockForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'            => new sfWidgetFormInputHidden(),
-      'parent_id'     => new sfWidgetFormInputText(),
+      'parent_id'     => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Block'), 'add_empty' => true)),
       'page_id'       => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Page'), 'add_empty' => false)),
       'block_link_id' => new sfWidgetFormInputText(),
       'header'        => new sfWidgetFormInputText(),
@@ -35,7 +35,7 @@ abstract class BaseBlockForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'            => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'parent_id'     => new sfValidatorInteger(array('required' => false)),
+      'parent_id'     => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Block'), 'required' => false)),
       'page_id'       => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Page'))),
       'block_link_id' => new sfValidatorInteger(array('required' => false)),
       'header'        => new sfValidatorString(array('max_length' => 255, 'required' => false)),

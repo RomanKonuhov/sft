@@ -7,6 +7,7 @@ Page:
   columns:
     id: { type: integer(5), unsigned: false, notnull: true, primary: true, autoincrement: true }
     header: { type: varchar(255), default: '' }
+    name: { type: varchar(255), unique: true, notnull: true }
     type: { type: varchar(32), notnull: true, default: 'user' }
     meta_keywords: { type: clob, default: '' }
     meta_description: { type: clob, default: '' }
@@ -18,7 +19,7 @@ Block:
   actAs: { Timestampable: ~ }
   columns:
     id: { type: integer(5), fixed: false, unsigned: true, notnull: true, primary: true, autoincrement: true }
-    parent_id: { type: integer(5), unsigned: true, default: 0 }
+    parent_id: { type: integer(5), unsigned: true, default: null }
     page_id: { type: integer(5), unsigned: true, notnull: true }
     block_link_id: { type: integer(5), unsigned: true, default: 0 }
     header: { type: string(255), default: '' }
@@ -63,6 +64,14 @@ Block:
       foreignType: many
       foreignAlias: Blocks
       onDelete: CASCADE
+      onUpdate: CASCADE
+    Block:
+      local: parent_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: Blocks
+      onDelete: SET NULL
       onUpdate: CASCADE
 
 

@@ -10,6 +10,7 @@ class BlockTable extends Doctrine_Table
     const IS_VISIBLE = 1;
     const NOT_VISIBLE = 0;
 
+
     /**
      * Returns an instance of this class.
      *
@@ -30,4 +31,5 @@ class BlockTable extends Doctrine_Table
 
         return $q->execute();
     }
+
 }

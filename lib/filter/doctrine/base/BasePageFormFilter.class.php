@@ -14,6 +14,7 @@ abstract class BasePageFormFilter extends BaseFormFilterDoctrine
   {
     $this->setWidgets(array(
       'header'           => new sfWidgetFormFilterInput(),
+      'name'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'type'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'meta_keywords'    => new sfWidgetFormFilterInput(),
       'meta_description' => new sfWidgetFormFilterInput(),
@@ -24,6 +25,7 @@ abstract class BasePageFormFilter extends BaseFormFilterDoctrine
 
     $this->setValidators(array(
       'header'           => new sfValidatorPass(array('required' => false)),
+      'name'             => new sfValidatorPass(array('required' => false)),
       'type'             => new sfValidatorPass(array('required' => false)),
       'meta_keywords'    => new sfValidatorPass(array('required' => false)),
       'meta_description' => new sfValidatorPass(array('required' => false)),
@@ -51,6 +53,7 @@ abstract class BasePageFormFilter extends BaseFormFilterDoctrine
     return array(
       'id'               => 'Number',
       'header'           => 'Text',
+      'name'             => 'Text',
       'type'             => 'Text',
       'meta_keywords'    => 'Text',
       'meta_description' => 'Text',

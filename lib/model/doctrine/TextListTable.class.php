@@ -32,17 +32,28 @@ class TextListTable extends Doctrine_Table
     }
 
 
-    public function getContent()
+    public function getContent($id = null)
     {
         $block = $this->getBlock();
         if (!isset($block)) {
             throw new Exception('block is not defined');
         }
 
-        $q = $this->createQuery('a')
-            ->where('block_id = ?', $block->getId());
+        if (is_null($id)) {
+            // get collection of all items in the list
+            $q = $this->createQuery('a')
+                ->where('block_id = ?', $block->getId());
 
-        return $q->execute();
+            return $q->execute();
+        } else {
+            // or one item from the list
+            $q = $this->createQuery('a')
+                ->where('block_id = ?', $block->getId())
+                ->andWhere('id = ?', $id);
+
+            return $q->fetchOne();
+        }
+
     }
 
 }

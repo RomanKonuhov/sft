@@ -7,6 +7,7 @@
  * 
  * @property integer $id
  * @property varchar $header
+ * @property varchar $name
  * @property varchar $type
  * @property clob $meta_keywords
  * @property clob $meta_description
@@ -16,6 +17,7 @@
  * 
  * @method integer             getId()               Returns the current record's "id" value
  * @method varchar             getHeader()           Returns the current record's "header" value
+ * @method varchar             getName()             Returns the current record's "name" value
  * @method varchar             getType()             Returns the current record's "type" value
  * @method clob                getMetaKeywords()     Returns the current record's "meta_keywords" value
  * @method clob                getMetaDescription()  Returns the current record's "meta_description" value
@@ -24,6 +26,7 @@
  * @method Doctrine_Collection getMenus()            Returns the current record's "Menus" collection
  * @method Page                setId()               Sets the current record's "id" value
  * @method Page                setHeader()           Sets the current record's "header" value
+ * @method Page                setName()             Sets the current record's "name" value
  * @method Page                setType()             Sets the current record's "type" value
  * @method Page                setMetaKeywords()     Sets the current record's "meta_keywords" value
  * @method Page                setMetaDescription()  Sets the current record's "meta_description" value
@@ -51,6 +54,12 @@ abstract class BasePage extends sfDoctrineRecord
         $this->hasColumn('header', 'varchar', 255, array(
              'type' => 'varchar',
              'default' => '',
+             'length' => 255,
+             ));
+        $this->hasColumn('name', 'varchar', 255, array(
+             'type' => 'varchar',
+             'unique' => true,
+             'notnull' => true,
              'length' => 255,
              ));
         $this->hasColumn('type', 'varchar', 32, array(

@@ -13,7 +13,7 @@ abstract class BaseBlockFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'parent_id'     => new sfWidgetFormFilterInput(),
+      'parent_id'     => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Block'), 'add_empty' => true)),
       'page_id'       => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Page'), 'add_empty' => true)),
       'block_link_id' => new sfWidgetFormFilterInput(),
       'header'        => new sfWidgetFormFilterInput(),
@@ -31,7 +31,7 @@ abstract class BaseBlockFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
-      'parent_id'     => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'parent_id'     => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Block'), 'column' => 'id')),
       'page_id'       => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Page'), 'column' => 'id')),
       'block_link_id' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'header'        => new sfValidatorPass(array('required' => false)),
@@ -66,7 +66,7 @@ abstract class BaseBlockFormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'            => 'Number',
-      'parent_id'     => 'Number',
+      'parent_id'     => 'ForeignKey',
       'page_id'       => 'ForeignKey',
       'block_link_id' => 'Number',
       'header'        => 'Text',

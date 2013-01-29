@@ -24,17 +24,17 @@ class pageActions extends sfActions
 
     public function executeShow(sfWebRequest $request)
     {
-        $pageId = $request->getParameter('id');
-        if (!$pageId) {
-            $this->page = Doctrine_Core::getTable('Page')->getIndexPage();
-            $pageId = $this->page->getId();
+        $pageName = $request->getParameter('name');
+        if (!$pageName) {
+            $indexPage = Doctrine_Core::getTable('Page')->getIndexPage();
+            $pageId = $indexPage->getId();
         } else {
-            $this->page = Doctrine_Core::getTable('Page')->find(array($pageId));
+            $page = Doctrine_Core::getTable('Page')->getPageByName($pageName);
+            $pageId = $page->getId();
         }
 
         $this->blocks = Doctrine_Core::getTable('Block')->get($pageId);
     }
-
 
 
     public function executeNew(sfWebRequest $request)
@@ -46,24 +46,23 @@ class pageActions extends sfActions
     public function executeCreate(sfWebRequest $request)
     {
         $this->forward404Unless($request->isMethod(sfRequest::POST));
-
         $this->form = new PageForm();
-
         $this->processForm($request, $this->form);
-
         $this->setTemplate('new');
     }
 
+
     public function executeEdit(sfWebRequest $request)
     {
-        $this->forward404Unless($page = Doctrine_Core::getTable('Page')->find(array($request->getParameter('id'))), sprintf('Object page does not exist (%s).', $request->getParameter('id')));
+        $page = $this->getRoute()->getObject();
         $this->form = new PageForm($page);
     }
+
 
     public function executeUpdate(sfWebRequest $request)
     {
         $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
-        $this->forward404Unless($page = Doctrine_Core::getTable('Page')->find(array($request->getParameter('id'))), sprintf('Object page does not exist (%s).', $request->getParameter('id')));
+        $page = $this->getRoute()->getObject();
         $this->form = new PageForm($page);
 
         $this->processForm($request, $this->form);
@@ -71,15 +70,17 @@ class pageActions extends sfActions
         $this->setTemplate('edit');
     }
 
+
     public function executeDelete(sfWebRequest $request)
     {
         $request->checkCSRFProtection();
 
-        $this->forward404Unless($page = Doctrine_Core::getTable('Page')->find(array($request->getParameter('id'))), sprintf('Object page does not exist (%s).', $request->getParameter('id')));
+        $page = $this->getRoute()->getObject();
         $page->delete();
 
         $this->redirect('page/index');
     }
+
 
     protected function processForm(sfWebRequest $request, sfForm $form)
     {

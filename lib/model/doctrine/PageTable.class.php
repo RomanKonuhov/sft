@@ -30,4 +30,16 @@ class PageTable extends Doctrine_Table
 
         return $indexPage;
     }
+
+
+    public function getPageByName($pageName)
+    {
+        $page = $this->findOneBy('name', $pageName);
+
+        if (!$page->getData()) {
+            throw new Doctrine_Exception('Page is absent');
+        }
+
+        return $page;
+    }
 }
