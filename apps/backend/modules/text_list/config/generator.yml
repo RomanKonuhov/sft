@@ -1,0 +1,32 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           TextList
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          text_list
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: List Management
+        display: [=header, author, thumb, visible]
+        layout: stacked
+        params: |
+          <div>%%header%% by %%author%%
+          <div style="float:left"><img src="%%thumb%%" width="100px" height="80px"></div>
+          %%description%%
+          </div>
+          <div class="clear"></div>
+          <span style="float: right">is visible: %%visible%%</div>
+      filter:
+        display: [=header, author, thumb, visible]
+      form:    ~
+      edit:    ~
+      new:     ~
