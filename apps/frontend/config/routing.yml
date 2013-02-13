@@ -11,6 +11,11 @@ page:
   options:
     model: Page
 
+block:
+  class: sfDoctrineRouteCollection
+  options:
+    model: Block
+
 page_show:
   url: /:name
   param:

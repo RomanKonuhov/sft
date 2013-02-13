@@ -25,4 +25,15 @@ class Tools
         return $text;
     }
 
+
+    static public function underscore($text)
+    {
+        return strtolower(preg_replace('/([a-z]+)([A-Z])/', '\1_\2', $text));
+    }
+
+
+    static public function hyphenize($text)
+    {
+        return str_replace('_', '-', $text);
+    }
 }

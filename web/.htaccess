@@ -15,8 +15,13 @@ Options +FollowSymLinks +ExecCGI
   # we check if the .html version is here (caching)
   RewriteRule ^$ index.html [QSA]
   RewriteRule ^([^.]+)$ $1.html [QSA]
+
+  # enter in the admin panel
   RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} _admin [NC]
+  RewriteRule ^(.*)$ /backend_dev.php/%{QUERY_STRING} [L]
 
   # no, so we redirect to our front web controller
+  RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^(.*)$ index.php [QSA,L]
 </IfModule>

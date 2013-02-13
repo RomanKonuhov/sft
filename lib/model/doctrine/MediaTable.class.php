@@ -7,13 +7,47 @@
  */
 class MediaTable extends Doctrine_Table
 {
-    /**
-     * Returns an instance of this class.
-     *
-     * @return object MediaTable
-     */
+    protected $_block = null;
+
+
     public static function getInstance()
     {
         return Doctrine_Core::getTable('Media');
+    }
+
+
+    public function getBlock()
+    {
+        return $this->_block;
+    }
+
+
+    public function setBlock(Block $block)
+    {
+        $this->_block = $block;
+    }
+
+
+    public function getContent($id = null)
+    {
+        $block = $this->getBlock();
+        if (!isset($block)) {
+            throw new Exception('block is not defined');
+        }
+
+        if (is_null($id)) {
+            // get collection of all items in the list
+            $q = $this->createQuery('a')
+                ->where('block_id = ?', $block->getId());
+
+            return $q->execute();
+        } else {
+            // or one item from the list
+            $q = $this->createQuery('a')
+                ->where('block_id = ?', $block->getId())
+                ->andWhere('id = ?', $id);
+
+            return $q->fetchOne();
+        }
     }
 }

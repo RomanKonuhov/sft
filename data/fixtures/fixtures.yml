@@ -48,7 +48,7 @@ Block:
     sort_type: asc
     visible: true
     css: >
-      {"width":"168px","height":"50px","position":"absolute","float":"none","display":"block","left": "844px","top": "15px","margin-left":0,"margin-right":0,"margin-top":0,"margin-bottom":0,"padding-left":0,"padding-right":0,"padding-top":0,"padding-bottom":0,"color":"default","font-size":"default","font-weight":"default","font-face":"default","background-color":"default"}
+      {"width":"168px","height":"50px","position":"absolute","float":"none","display":"block","left": "820px","top": "15px","margin-left":0,"margin-right":0,"margin-top":0,"margin-bottom":0,"padding-left":0,"padding-right":0,"padding-top":0,"padding-bottom":0,"color":"default","font-size":"default","font-weight":"default","font-face":"default","background-color":"default"}
     by_default: false
     azlist_show: false
     item_per_page: 0
@@ -63,11 +63,26 @@ Block:
     sort_type: asc
     visible: true
     css: >
-      {"width":"600px","float":"left","margin-left":"10px","margin-right":"10px","margin-top":"10px","margin-bottom":"10px"}
+      {"width":"660px","float":"left","margin-left":"10px","margin-right":"10px","margin-top":"10px","margin-bottom":"10px"}
     by_default: false
     azlist_show: false
     item_per_page: 0
     s_order: 1
+  block_media:
+    Page: page_index
+    parent_id: null
+    block_link_id: 0
+    header: Picture in the header
+    type: media
+    sort: hand
+    sort_type: asc
+    visible: true
+    css: >
+      {"width":"300px","float":"right","margin-left":"10px","margin-right":"10px","margin-top":"10px","margin-bottom":"10px"}
+    by_default: false
+    azlist_show: false
+    item_per_page: 0
+    s_order: 2
 
 Text:
   text_header:
@@ -88,18 +103,31 @@ Text:
 
 TextList:
 <?php for ($i = 1; $i < 5; $i++): ?>
-  textlist_list_<?= $i ?>:
+  textlist_list_<?php echo $i ?>:
     Block: block_list
-    header: List header <?= $i."\n"?>
+    header: List header <?php echo $i."\n"?>
     description: |
       Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
     content: |
       Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
       Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
       Doctrine offers some simple magic finder methods that automatically create Doctrine_Query objects in the background. Below are some examples of how you can utilize these methods.
-    author: <?= $author[$i-1]."\n" ?>
+    author: <?php echo $author[$i-1]."\n" ?>
     thumb: /images/sea.jpg
-    s_order: <?= $i."\n" ?>
+    s_order: <?php echo $i."\n" ?>
     meta_keywords: List meta keywords
     meta_description: List meta description
+<?php endfor; ?>
+
+Media:
+<?php for ($i = 1; $i < 7; $i++): ?>
+  media_list_<?php echo $i ?>:
+    Block: block_media
+    filename: Picture <?php echo $i."\n"?>
+    filepath: <?php echo "/images/file_".$i.".jpg\n" ?>
+    mimetype: 'image/jpeg'
+    filesize: 15983
+    metadata: ''
+    dtype: 1
+    s_order: <?php echo $i."\n" ?>
 <?php endfor; ?>

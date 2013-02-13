@@ -7,27 +7,27 @@ class Css
     protected $_data = array(
         'width' => 0,
         'height' => 0,
-        'border-color' => '#333',
-        'border-width' => 0,
-        'border-style' => 'solid',
+        'border_color' => '#333',
+        'border_width' => 0,
+        'border_style' => 'none',
         'position' => 'relative',
         'float' => 'none',
         'display' => 'block',
         'left' => 0,
         'top' => 0,
-        'margin-left' => 0,
-        'margin-right' => 0,
-        'margin-top' => 0,
-        'margin-bottom' => 0,
-        'padding-left' => 0,
-        'padding-right' => 0,
-        'padding-top' => 0,
-        'padding-bottom' => 0,
+        'margin_left' => 0,
+        'margin_right' => 0,
+        'margin_top' => 0,
+        'margin_bottom' => 0,
+        'padding_left' => 0,
+        'padding_right' => 0,
+        'padding_top' => 0,
+        'padding_bottom' => 0,
         'color' => self::DEFAULT_VALUE,
-        'font-size' => self::DEFAULT_VALUE,
-        'font-weight' => self::DEFAULT_VALUE,
-        'font-face' => self::DEFAULT_VALUE,
-        'background-color' => self::DEFAULT_VALUE,
+        'font_size' => self::DEFAULT_VALUE,
+        'font_weight' => self::DEFAULT_VALUE,
+        'font_face' => self::DEFAULT_VALUE,
+        'background_color' => self::DEFAULT_VALUE,
         'overflow' => 'hidden',
     );
 
@@ -69,7 +69,7 @@ class Css
     {
         if (in_array($verb = substr($method, 0, 3), array('set', 'get'))) {
             $accessor = substr($method, 0, 3);
-            $key = strtolower(substr($method, 3));
+            $key = Tools::underscore(substr($method, 3));
             switch ($accessor) {
                 case 'get' :
                     if ($key == 'data') {
@@ -99,10 +99,11 @@ class Css
     public function __toString()
     {        
         $style = array();
-        
+
         foreach ($this->_data as $key => $value) {
-            if ($value != self::DEFAULT_VALUE && $value != 0) {
-                $style[] = $key.':'.$value;
+            if (($value != self::DEFAULT_VALUE) && ($value !== 0)) {
+                $key = Tools::hyphenize($key);
+                $style[] = $key.":".$value;
             }
         }
 

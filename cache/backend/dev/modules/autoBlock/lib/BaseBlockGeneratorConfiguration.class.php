@@ -47,17 +47,17 @@ abstract class BaseBlockGeneratorConfiguration extends sfModelGeneratorConfigura
 
   public function getListParams()
   {
-    return '%%id%% - %%parent_id%% - %%page_id%% - %%block_link_id%% - %%header%% - %%type%% - %%sort%% - %%sort_type%% - %%visible%% - %%css%% - %%by_default%% - %%azlist_show%% - %%item_per_page%% - %%s_order%% - %%created_at%% - %%updated_at%%';
+    return '<div class="row">Block %%header%% on the %%page%%<br /><span class="status">Type: %%type%%</span><br><div class="clear"></div><span class="status">Is visible: %%visible%%</span><br><span class="timestamp">Created at %%created_at%%</span></div>';
   }
 
   public function getListLayout()
   {
-    return 'tabular';
+    return 'stacked';
   }
 
   public function getListTitle()
   {
-    return 'Block List';
+    return 'Block Management';
   }
 
   public function getEditTitle()
@@ -72,7 +72,7 @@ abstract class BaseBlockGeneratorConfiguration extends sfModelGeneratorConfigura
 
   public function getFilterDisplay()
   {
-    return array();
+    return array(  0 => 'header',  1 => 'type',  2 => 'visible',);
   }
 
   public function getFormDisplay()
@@ -92,15 +92,15 @@ abstract class BaseBlockGeneratorConfiguration extends sfModelGeneratorConfigura
 
   public function getListDisplay()
   {
-    return array(  0 => 'id',  1 => 'parent_id',  2 => 'page_id',  3 => 'block_link_id',  4 => 'header',  5 => 'type',  6 => 'sort',  7 => 'sort_type',  8 => 'visible',  9 => 'css',  10 => 'by_default',  11 => 'azlist_show',  12 => 'item_per_page',  13 => 's_order',  14 => 'created_at',  15 => 'updated_at',);
+    return array(  0 => '=header',  1 => 'type',  2 => 'css',  3 => 'visible',);
   }
 
   public function getFieldsDefault()
   {
     return array(
       'id' => array(  'is_link' => true,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Text',),
-      'parent_id' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Text',),
-      'page_id' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Text',),
+      'parent_id' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'ForeignKey',),
+      'page_id' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'ForeignKey',),
       'block_link_id' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Text',),
       'header' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Text',),
       'type' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Enum',),

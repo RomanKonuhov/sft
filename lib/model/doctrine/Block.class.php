@@ -12,6 +12,16 @@
  */
 class Block extends BaseBlock
 {
+    public function preSave($event)
+    {
+        if ($this->getParentId() == 0) {
+            $this->setParentId(null);
+        }
+
+        return parent::preSave($event);
+    }
+
+
     public function getEncodeHeader()
     {
         return Tools::urlencode($this->getHeader());
@@ -54,4 +64,18 @@ class Block extends BaseBlock
     {
         return $this->getInstance()->getContent($id);
     }
+
+
+    public function getChilds()
+    {
+        return Doctrine_Core::getTable('Block')->getChilds($this->getPageId(), $this->getId());
+    }
+
+
+    public function hasChilds()
+    {
+        $childs = $this->getChilds();
+        return count($childs);
+    }
+
 }

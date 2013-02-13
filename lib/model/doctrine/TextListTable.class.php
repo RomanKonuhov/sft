@@ -53,7 +53,6 @@ class TextListTable extends Doctrine_Table
 
             return $q->fetchOne();
         }
-
     }
 
 }

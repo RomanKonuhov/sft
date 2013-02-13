@@ -2,7 +2,7 @@
 <?php include_partial('block/assets') ?>
 
 <div id="sf_admin_container">
-  <h1><?php echo __('Block List', array(), 'messages') ?></h1>
+  <h1><?php echo __('Block Management', array(), 'messages') ?></h1>
 
   <?php include_partial('block/flashes') ?>
 

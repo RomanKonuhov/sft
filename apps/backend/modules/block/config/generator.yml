@@ -14,8 +14,20 @@ generator:
     config:
       actions: ~
       fields:  ~
-      list:    ~
-      filter:  ~
+      list:
+        title: Block Management
+        display: [=header, type, css, visible]
+        layout: stacked
+        params: |
+          <div class="row">
+          Block %%header%% on the %%page%%<br />
+          <span class="status">Type: %%type%%</span><br>
+          <div class="clear"></div>
+          <span class="status">Is visible: %%visible%%</span><br>
+          <span class="timestamp">Created at %%created_at%%</span>
+          </div>
+      filter:
+        display: [header, type, visible]
       form:    ~
       edit:    ~
       new:     ~

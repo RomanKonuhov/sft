@@ -1,3 +1,21 @@
+text_list:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                TextList
+    module:               text_list
+    prefix_path:          /text_list
+    column:               id
+    with_wildcard_routes: true
+
+media:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Media
+    module:               media
+    prefix_path:          /media
+    column:               id
+    with_wildcard_routes: true
+
 text:
   class: sfDoctrineRouteCollection
   options:
@@ -22,7 +40,7 @@ block:
 # default rules
 homepage:
   url:   /
-  param: { module: default, action: index }
+  param: { module: block, action: index }
 
 # generic rules
 # please, remove them by adding more specific rules

@@ -9,6 +9,7 @@ class BlockTable extends Doctrine_Table
 {
     const IS_VISIBLE = 1;
     const NOT_VISIBLE = 0;
+    const NO_PARENT = 0;
 
 
     /**
@@ -22,10 +23,38 @@ class BlockTable extends Doctrine_Table
     }
 
 
+    public function getHeaders($currentBlockId)
+    {
+        $rows = $this->createQuery('b')
+            ->where('id != ?', $currentBlockId)
+            ->execute();
+
+        $headers = array(0 => ' -- no header --');
+        foreach ($rows as $row) {
+            $headers[$row->getId()] = $row->getHeader();
+        }
+
+        return $headers;
+    }
+
+
     public function get($pageId)
     {
         $q = $this->createQuery('b')
             ->where('b.page_id = ?', $pageId)
+            ->andWhere('b.parent_id IS NULL')
+            ->andWhere('b.visible = ?', self::IS_VISIBLE)
+            ->orderBy('b.s_order');
+
+        return $q->execute();
+    }
+
+
+    public function getChilds($pageId, $blockId)
+    {
+        $q = $this->createQuery('b')
+            ->where('b.page_id = ?', $pageId)
+            ->andWhere('b.parent_id = ?', $blockId)
             ->andWhere('b.visible = ?', self::IS_VISIBLE)
             ->orderBy('b.s_order');
 

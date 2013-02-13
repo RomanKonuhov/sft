@@ -3078,3 +3078,809 @@
 [Tue Jan 29 02:56:29 2013] [error] [client 127.0.0.1] PHP  17. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124, referer: http://sft.loc/frontend_dev.php/List+header+2/2
 [Tue Jan 29 02:56:29 2013] [error] [client 127.0.0.1] PHP  18. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75, referer: http://sft.loc/frontend_dev.php/List+header+2/2
 [Tue Jan 29 02:56:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/List+header+1/<br /><font size='1'><table class='xdebug-error' dir='ltr' border='1' cellspacing='0' cellpadding='1'><tr><th align='left' bgcolor='" (/)., referer: http://sft.loc/frontend_dev.php/List+header+1/1
+[Tue Jan 29 11:26:25 2013] [error] [client 127.0.0.1] File does not exist: /var/www/sft.loc/prj/favicon.ico
+[Tue Jan 29 11:26:25 2013] [error] [client 127.0.0.1] File does not exist: /var/www/sft.loc/prj/favicon.ico
+[Tue Jan 29 11:27:03 2013] [error] [client 127.0.0.1] PDO Connection Error: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "sft"\nFATAL:  password authentication failed for user "sft"
+[Tue Jan 29 11:27:04 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/icons/tools48.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 11:27:04 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/sfTLogo.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 11:27:04 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/css/screen.css" (/)., referer: http://sft.loc/
+[Tue Jan 29 11:27:11 2013] [error] [client 127.0.0.1] PDO Connection Error: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "sft"\nFATAL:  password authentication failed for user "sft", referer: http://sft.loc/
+[Tue Jan 29 11:27:11 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/sfTLogo.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 11:27:11 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/css/screen.css" (/)., referer: http://sft.loc/
+[Tue Jan 29 11:27:11 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/icons/tools48.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:04:45 2013] [error] [client 127.0.0.1] PDO Connection Error: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "sft"\nFATAL:  password authentication failed for user "sft"
+[Tue Jan 29 12:04:46 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/sfTLogo.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:04:46 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/css/screen.css" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:04:46 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/icons/tools48.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:05:31 2013] [error] [client 127.0.0.1] PDO Connection Error: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "sft"\nFATAL:  password authentication failed for user "sft"
+[Tue Jan 29 12:05:31 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/css/screen.css" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:05:31 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/sfTLogo.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:05:31 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/icons/tools48.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:08:01 2013] [error] [client 127.0.0.1] PDO Connection Error: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "sft"\nFATAL:  password authentication failed for user "sft"
+[Tue Jan 29 12:08:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/icons/tools48.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:08:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/css/screen.css" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:08:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/sfTLogo.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:08:02 2013] [error] [client 127.0.0.1] PDO Connection Error: SQLSTATE[08006] [7] FATAL:  password authentication failed for user "sft"\nFATAL:  password authentication failed for user "sft"
+[Tue Jan 29 12:08:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/css/screen.css" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:08:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/sfTLogo.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:08:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/icons/tools48.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:16:43 2013] [error] [client 127.0.0.1] PDO Connection Error: SQLSTATE[08006] [7] FATAL:  database "sft" does not exist
+[Tue Jan 29 12:16:43 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/icons/tools48.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:16:43 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/css/screen.css" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:16:43 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/sfTLogo.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:31:41 2013] [error] [client 127.0.0.1] Unknown record property / related component "child" on "Block"
+[Tue Jan 29 12:31:41 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/sfTLogo.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:31:41 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/css/screen.css" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:31:41 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_default/images/icons/tools48.png" (/)., referer: http://sft.loc/
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Unknown record property / related component "child" on "Block"
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:31:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP Catchable fatal error:  Argument 2 passed to Doctrine_Table::__construct() must be an instance of Doctrine_Connection, none given, called in /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php on line 301 and defined in /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php on line 238
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  24. sfOutputEscaperIteratorDecorator->getChilds() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  25. sfOutputEscaperObjectDecorator->__call() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  26. call_user_func_array() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  27. Block->getChilds() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  28. Doctrine_Core::getTable() /var/www/sft.loc/prj/lib/model/doctrine/Block.class.php:61
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  29. Doctrine_Connection->getTable() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Core.php:1090
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  30. Doctrine_Table->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php:1126
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  31. Doctrine_Table->initDefinition() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:256
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  32. Doctrine_Table->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:301
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function evictAll() on a non-object in /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php on line 1239
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  24. sfOutputEscaperIteratorDecorator->getChilds() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  25. sfOutputEscaperObjectDecorator->__call() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  26. call_user_func_array() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  27. Block->getChilds() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  28. Doctrine_Core::getTable() /var/www/sft.loc/prj/lib/model/doctrine/Block.class.php:61
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  29. Doctrine_Connection->getTable() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Core.php:1090
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  30. Doctrine_Table->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php:1126
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  31. Doctrine_Table->initDefinition() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:256
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  32. Doctrine_Table->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:301
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  33. sfContext->shutdown() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:0
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  34. sfDatabaseManager->shutdown() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:605
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  35. sfDoctrineDatabase->shutdown() /var/www/sft.loc/prj/lib/vendor/symfony/lib/database/sfDatabaseManager.class.php:134
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  36. Doctrine_Manager->closeConnection() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/database/sfDoctrineDatabase.class.php:165
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  37. Doctrine_Connection->close() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Manager.php:580
+[Tue Jan 29 12:32:01 2013] [error] [client 127.0.0.1] PHP  38. Doctrine_Connection->clear() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php:1268
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP Catchable fatal error:  Argument 2 passed to Doctrine_Table::__construct() must be an instance of Doctrine_Connection, none given, called in /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php on line 301 and defined in /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php on line 238
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  24. sfOutputEscaperIteratorDecorator->getChilds() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  25. sfOutputEscaperObjectDecorator->__call() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  26. call_user_func_array() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  27. Block->getChilds() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  28. Doctrine_Core::getTable() /var/www/sft.loc/prj/lib/model/doctrine/Block.class.php:61
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  29. Doctrine_Connection->getTable() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Core.php:1090
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  30. Doctrine_Table->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php:1126
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  31. Doctrine_Table->initDefinition() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:256
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  32. Doctrine_Table->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:301
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function evictAll() on a non-object in /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php on line 1239
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  24. sfOutputEscaperIteratorDecorator->getChilds() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  25. sfOutputEscaperObjectDecorator->__call() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  26. call_user_func_array() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  27. Block->getChilds() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  28. Doctrine_Core::getTable() /var/www/sft.loc/prj/lib/model/doctrine/Block.class.php:61
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  29. Doctrine_Connection->getTable() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Core.php:1090
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  30. Doctrine_Table->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php:1126
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  31. Doctrine_Table->initDefinition() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:256
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  32. Doctrine_Table->__construct() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php:301
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  33. sfContext->shutdown() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:0
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  34. sfDatabaseManager->shutdown() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:605
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  35. sfDoctrineDatabase->shutdown() /var/www/sft.loc/prj/lib/vendor/symfony/lib/database/sfDatabaseManager.class.php:134
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  36. Doctrine_Manager->closeConnection() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/database/sfDoctrineDatabase.class.php:165
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  37. Doctrine_Connection->close() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Manager.php:580
+[Tue Jan 29 12:32:14 2013] [error] [client 127.0.0.1] PHP  38. Doctrine_Connection->clear() /var/www/sft.loc/prj/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php:1268
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP Catchable fatal error:  Object of class sfOutputEscaperArrayDecorator could not be converted to string in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php on line 2
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 12:33:04 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 12:34:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:34:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:35:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:39:14 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:43:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:45:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 12:46:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:46:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/sf.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/view.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/time.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/memory.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/config.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/log.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/database.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/close.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/toggle.gif" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/info.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/warning.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/sf/sf_web_debug/images/error.png" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=11049
+[Tue Jan 29 12:46:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:52:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:52:57 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:53:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:54:23 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:55:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:55:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:56:26 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:57:07 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:57:24 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:57:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:57:48 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_ECHO in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php on line 2
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward($moduleName = *uninitialized*, $actionName = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction($filterChain = *uninitialized*, $actionInstance = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction($actionInstance = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute($request = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex($request = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward($module = *uninitialized*, $action = *uninitialized*) /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward($moduleName = *uninitialized*, $actionName = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView($filterChain = *uninitialized*, $actionInstance = *uninitialized*, $viewName = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView($moduleName = *uninitialized*, $actionName = *uninitialized*, $viewName = *uninitialized*, $viewAttributes = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 12:58:26 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile($_sfFile = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 12:58:27 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:59:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 12:59:35 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:00:04 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:00:17 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:00:30 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:01:01 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:02:17 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:02:18 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:02:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:03:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:03:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:03:49 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:03:50 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getValue() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/BlockTable.class.php on line 50
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  24. sfOutputEscaperIteratorDecorator->getChilds() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  25. sfOutputEscaperObjectDecorator->__call() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:2
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  26. call_user_func_array() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  27. Block->getChilds() /var/www/sft.loc/prj/lib/vendor/symfony/lib/escaper/sfOutputEscaperObjectDecorator.class.php:64
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] PHP  28. BlockTable->getChilds() /var/www/sft.loc/prj/lib/model/doctrine/Block.class.php:61
+[Tue Jan 29 13:04:06 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:04:11 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:04:35 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getTemplateName() on a non-object in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php on line 7
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:09:18 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:10:24 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:11:17 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:13:30 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:13:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: block in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php on line 1
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: blocks in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php on line 1
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  24. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:1
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  25. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  26. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  27. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  28. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP Warning:  Invalid argument supplied for foreach() in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php on line 1
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  24. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:1
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  25. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  26. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  27. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] PHP  28. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:23 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: blocks in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php on line 1
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  24. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:1
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  25. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  26. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  27. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  28. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  29. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php:7
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  30. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  31. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  32. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  33. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP Warning:  Invalid argument supplied for foreach() in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php on line 1
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  24. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:1
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  25. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  26. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  27. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  28. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  29. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php:7
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  30. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  31. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  32. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] PHP  33. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:41 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getCssAsString() on a non-object in /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php on line 2
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  24. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:1
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  25. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  26. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  27. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  28. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  29. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php:7
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  30. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  31. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  32. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] PHP  33. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:16:55 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:21:23 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:22:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:22:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:23:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:24:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:27:55 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:28:06 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:29:01 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:34:46 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:35:09 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:37:18 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:37:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:38:06 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:39:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:40:10 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:40:50 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:41:37 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: k in /var/www/sft.loc/prj/lib/Css.php on line 109
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeIndex() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  13. sfAction->forward() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:21
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  14. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfAction.class.php:136
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  15. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  16. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  17. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  18. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  19. sfExecutionFilter->handleView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  20. sfExecutionFilter->executeView() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  21. sfPHPView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:155
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  22. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:185
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  23. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  24. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/showSuccess.php:1
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  25. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  26. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  27. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  28. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  29. include_partial() /var/www/sft.loc/prj/apps/frontend/modules/page/templates/_main.php:6
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  30. get_partial() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:182
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  31. sfPartialView->render() /var/www/sft.loc/prj/lib/vendor/symfony/lib/helper/PartialHelper.php:220
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  32. sfPHPView->renderFile() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPartialView.class.php:124
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  33. require() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:75
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  34. sfOutputEscaperObjectDecorator->__toString() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:2
+[Tue Jan 29 13:41:52 2013] [error] [client 127.0.0.1] PHP  35. Css->__toString() /var/www/sft.loc/prj/lib/vendor/symfony/lib/view/sfPHPView.class.php:98
+[Tue Jan 29 13:41:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:42:21 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:43:01 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:43:31 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:44:10 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:45:42 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:46:16 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:46:50 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:47:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 13:49:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:08:35 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/images/file_2.jpg" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 14:08:35 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/images/file_6.jpg" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 14:10:06 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/images/file_6.jpg" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 14:10:06 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/images/file_2.jpg" (/)., referer: http://sft.loc/frontend_dev.php
+[Tue Jan 29 14:12:10 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/images/file_2.jpg" (/).
+[Tue Jan 29 14:26:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:26:24 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:26:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:47:06 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:47:12 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:49:44 2013] [error] [client 127.0.0.1] Widget "page" does not exist.
+[Tue Jan 29 14:49:45 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:51:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:53:22 2013] [error] [client 127.0.0.1] Unable to parse file "/var/www/sft.loc/prj/apps/backend/modules/block/config/generator.yml": Unable to parse line 19 (<div class="row">).
+[Tue Jan 29 14:53:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:53:27 2013] [error] [client 127.0.0.1] Unable to parse file "/var/www/sft.loc/prj/apps/backend/modules/block/config/generator.yml": Unable to parse line 19 (<div class="row">).
+[Tue Jan 29 14:53:27 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:53:28 2013] [error] [client 127.0.0.1] Unable to parse file "/var/www/sft.loc/prj/apps/backend/modules/block/config/generator.yml": Unable to parse line 19 (<div class="row">).
+[Tue Jan 29 14:53:28 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:53:35 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:54:35 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:55:48 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:56:07 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:56:15 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:56:36 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:56:39 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:57:36 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:58:01 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 14:59:39 2013] [error] [client 127.0.0.1] Failed to write cache file "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText_list/lib/BaseText_listGeneratorConfiguration.class.php".
+[Tue Jan 29 14:59:39 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:00:28 2013] [error] [client 127.0.0.1] Failed to write cache file "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText_list/lib/BaseText_listGeneratorConfiguration.class.php".
+[Tue Jan 29 15:00:28 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:00:29 2013] [error] [client 127.0.0.1] Failed to write cache file "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText_list/lib/BaseText_listGeneratorConfiguration.class.php".
+[Tue Jan 29 15:00:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:00:34 2013] [error] [client 127.0.0.1] Failed to write cache file "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText_list/lib/BaseText_listGeneratorConfiguration.class.php".
+[Tue Jan 29 15:00:34 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:00:41 2013] [error] [client 127.0.0.1] Failed to write cache file "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText_list/lib/BaseText_listGeneratorConfiguration.class.php".
+[Tue Jan 29 15:00:41 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:00:52 2013] [error] [client 127.0.0.1] Failed to write cache file "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText_list/lib/BaseText_listGeneratorConfiguration.class.php".
+[Tue Jan 29 15:00:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:01:35 2013] [error] [client 127.0.0.1] Failed to write cache file "/var/www/sft.loc/prj/cache/backend/dev/modules/autoText_list/lib/BaseText_listGeneratorConfiguration.class.php".
+[Tue Jan 29 15:01:35 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:01:46 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:02:03 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:02:05 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:04:17 2013] [error] [client 127.0.0.1] Unable to parse file "/var/www/sft.loc/prj/apps/backend/modules/text_list/config/generator.yml": Unable to parse line 22 (<div>%%header%% by %%author%%).
+[Tue Jan 29 15:04:17 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:04:25 2013] [error] [client 127.0.0.1] Unable to parse file "/var/www/sft.loc/prj/apps/backend/modules/text_list/config/generator.yml": Unable to parse line 22 (<div>%%header%% by %%author%%).
+[Tue Jan 29 15:04:25 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:04:26 2013] [error] [client 127.0.0.1] Unable to parse file "/var/www/sft.loc/prj/apps/backend/modules/text_list/config/generator.yml": Unable to parse line 22 (<div>%%header%% by %%author%%).
+[Tue Jan 29 15:04:26 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:04:38 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:04:57 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:05:09 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:05:26 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:05:46 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:06:07 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:06:18 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:06:34 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:06:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:07:38 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:07:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:07:47 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:07:54 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:08:26 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:08:38 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:08:39 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:08:49 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Jan 29 15:08:55 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Feb 05 23:36:19 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Wed Feb 06 22:22:41 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Wed Feb 06 22:56:15 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Fri Feb 08 00:28:10 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Fri Feb 08 09:11:59 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 09 02:50:43 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 09 15:41:21 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 09 20:18:20 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sun Feb 10 23:08:39 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 11 22:57:25 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Wed Feb 13 00:21:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Wed Feb 13 21:07:15 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Wed Feb 13 21:41:31 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Wed Feb 13 21:54:25 2013] [error] [client 127.0.0.1] Widget "created_at" does not exist., referer: http://sft.loc/frontend_dev.php
+[Wed Feb 13 21:57:34 2013] [error] [client 127.0.0.1] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "block" violates foreign key constraint "block_parent_id_block_id"\nDETAIL:  Key (parent_id)=(0) is not present in table "block"., referer: http://sft.loc/frontend_dev.php/block/8/edit

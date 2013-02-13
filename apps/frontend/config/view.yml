@@ -14,7 +14,11 @@ default:
 
   stylesheets:    [main.css]
 
-  javascripts:    []
+  javascripts:
+    - http://code.jquery.com/jquery-1.9.0.js
+    - http://documentcloud.github.com/underscore/underscore-min.js
+    - https://raw.github.com/douglascrockford/JSON-js/master/json2.js
+    - http://backbonejs.ru/backbone-min.js
 
   has_layout:     true
   layout:         layout
