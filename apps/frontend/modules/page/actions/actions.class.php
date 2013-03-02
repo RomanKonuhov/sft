@@ -18,12 +18,22 @@ class pageActions extends sfActions
 
     public function executeIndex(sfWebRequest $request)
     {
-        $this->forward('page', 'show');
+        $this->setTemplate('show');
+        //$this->forward('page', 'show');
     }
 
 
     public function executeShow(sfWebRequest $request)
     {
+//        $data = array(
+//            'title' => 'SNews_1',
+//            'date' => date('d-m-Y', time()),
+//            'content' => 'Server default content'
+//        );
+//
+//        return $this->renderText(json_encode($data));
+
+
         $pageName = $request->getParameter('name');
         if (!$pageName) {
             $indexPage = Doctrine_Core::getTable('Page')->getIndexPage();
@@ -32,8 +42,31 @@ class pageActions extends sfActions
             $page = Doctrine_Core::getTable('Page')->getPageByName($pageName);
             $pageId = $page->getId();
         }
-
         $this->blocks = Doctrine_Core::getTable('Block')->get($pageId);
+
+        $result = array();
+        foreach ($this->blocks as $b){
+            $r = array();
+            $r['block'] = $b->getData();
+            $r['template'] = $this->getPartial('page/'.$b->getType());
+            $content = array();
+            if ($b->getType() != Block::TYPE_TEXT) {
+                foreach ($b->getContent() as $c) {
+                    $data = $c->getData();
+                    $data['date'] = $c->getDateTimeObject('created_at')->format('d/m/Y');
+                    $data['link_block_view'] = '/block/view/'.$c->getId();//$this->generateUrl('page', $b);
+                    $content[] = $data;
+                }
+            } else {
+                $content = $b->getContent();
+            }
+            $r['bid'] = $b->getParentId();
+            $r['content'] = $content;
+            $result[] = $r;
+        }
+
+        $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
+        return $this->renderText(json_encode($result));
     }
 
 

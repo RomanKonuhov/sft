@@ -42,7 +42,7 @@ class BlockTable extends Doctrine_Table
     {
         $q = $this->createQuery('b')
             ->where('b.page_id = ?', $pageId)
-            ->andWhere('b.parent_id IS NULL')
+            //->andWhere('b.parent_id IS NULL') // it's no need for dynamic behaviour
             ->andWhere('b.visible = ?', self::IS_VISIBLE)
             ->orderBy('b.s_order');
 

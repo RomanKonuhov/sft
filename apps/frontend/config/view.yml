@@ -19,6 +19,9 @@ default:
     - http://documentcloud.github.com/underscore/underscore-min.js
     - https://raw.github.com/douglascrockford/JSON-js/master/json2.js
     - http://backbonejs.ru/backbone-min.js
+    - menu.js
+    - apps/model/block.js
+    - apps/view/block.js
 
   has_layout:     true
   layout:         layout

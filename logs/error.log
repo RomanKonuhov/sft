@@ -3884,3 +3884,393 @@
 [Wed Feb 13 21:41:31 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
 [Wed Feb 13 21:54:25 2013] [error] [client 127.0.0.1] Widget "created_at" does not exist., referer: http://sft.loc/frontend_dev.php
 [Wed Feb 13 21:57:34 2013] [error] [client 127.0.0.1] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "block" violates foreign key constraint "block_parent_id_block_id"\nDETAIL:  Key (parent_id)=(0) is not present in table "block"., referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:28 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:32, referer: http://sft.loc/frontend_dev.php/block/8/edit
+[Wed Feb 13 23:13:45 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/js/apps/*.js" (/)., referer: http://sft.loc/frontend_dev.php
+[Wed Feb 13 23:13:46 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/js/apps/*.js" (/)., referer: http://sft.loc/frontend_dev.php
+[Wed Feb 13 23:14:11 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/js/apps/model/*.js" (/)., referer: http://sft.loc/frontend_dev.php
+[Wed Feb 13 23:14:12 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/js/apps/model/*.js" (/)., referer: http://sft.loc/frontend_dev.php
+[Wed Feb 13 23:14:23 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/js/apps/model/.js" (/)., referer: http://sft.loc/frontend_dev.php
+[Wed Feb 13 23:14:23 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/js/apps/model/.js" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:18:47 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:21:55 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:22:01 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:22:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:22:43 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:23:11 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:24:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:25:24 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=12240
+[Thu Feb 14 01:25:24 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:25:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=12240
+[Thu Feb 14 01:25:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:26:38 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward($moduleName = *uninitialized*, $actionName = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction($filterChain = *uninitialized*, $actionInstance = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction($actionInstance = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute($request = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow($request = *uninitialized*) /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Thu Feb 14 01:26:50 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName($pageName = *uninitialized*) /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:33
+[Thu Feb 14 01:26:51 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:33
+[Thu Feb 14 01:28:55 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:29:56 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/).
+[Thu Feb 14 01:29:57 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:30:06 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/index" (/).
+[Thu Feb 14 01:30:06 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:30:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:30:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:30:41 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:30:42 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:30:53 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:31:03 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:31:49 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:32:08 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:32:27 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:32:42 2013] [error] [client 127.0.0.1] The template "show"None".php" does not exist or is unreadable in "".
+[Thu Feb 14 01:32:42 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:33:03 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:34:22 2013] [error] [client 127.0.0.1] The template "show{"template":"None","data":{}}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:34:22 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:34:33 2013] [error] [client 127.0.0.1] The template "show{"template":"None","data":{}}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:34:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:34:34 2013] [error] [client 127.0.0.1] The template "show{"template":"None","data":{}}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:34:34 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:34:50 2013] [error] [client 127.0.0.1] The template "show{"template":"None","data":{}}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:34:51 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:34:51 2013] [error] [client 127.0.0.1] The template "show{"template":"None","data":{}}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:34:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:35:31 2013] [error] [client 127.0.0.1] The template "showArray.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:35:31 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:35:33 2013] [error] [client 127.0.0.1] The template "showArray.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:35:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 01:40:49 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:41:44 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:42:09 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:42:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:43:09 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php
+[Thu Feb 14 01:43:20 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/)., referer: http://sft.loc/frontend_dev.php/page
+[Thu Feb 14 01:43:24 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/index" (/).
+[Thu Feb 14 01:43:32 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/index" (/).
+[Thu Feb 14 01:44:21 2013] [error] [client 127.0.0.1] The template "show{}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:45:43 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/).
+[Thu Feb 14 01:46:25 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/).
+[Thu Feb 14 01:46:27 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show" (/).
+[Thu Feb 14 01:46:34 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/page/show/index" (/).
+[Thu Feb 14 01:46:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/show/index" (/).
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:42
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:78
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:92
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/lib/vendor/symfony/lib/action/sfActions.class.php:60
+[Thu Feb 14 01:46:45 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:33
+[Thu Feb 14 01:47:57 2013] [error] [client 127.0.0.1] The template "show{}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:48:25 2013] [error] [client 127.0.0.1] The template "show{}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:48:34 2013] [error] [client 127.0.0.1] The template "show{}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:48:41 2013] [error] [client 127.0.0.1] The template "show{}.php" does not exist or is unreadable in "".
+[Thu Feb 14 01:50:14 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_RETURN in /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php on line 38
+[Thu Feb 14 01:50:14 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Feb 14 01:50:14 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/frontend_dev.php:0
+[Thu Feb 14 01:50:14 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/frontend_dev.php:13
+[Thu Feb 14 01:50:14 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Thu Feb 14 01:50:14 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Thu Feb 14 01:50:14 2013] [error] [client 127.0.0.1] PHP   5. sfController->actionExists() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:188
+[Thu Feb 14 01:50:14 2013] [error] [client 127.0.0.1] PHP   6. sfController->controllerExists() /var/www/sft.loc/prj/lib/vendor/symfony/lib/controller/sfController.class.php:74
+[Thu Feb 14 02:09:41 2013] [error] [client 127.0.0.1] The template "showSuccess..php" does not exist or is unreadable in "".
+[Thu Feb 14 22:47:31 2013] [error] [client 127.0.0.1] The template "showSuccess..php" does not exist or is unreadable in "".
+[Thu Feb 14 22:47:34 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 22:47:34 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 14 22:57:41 2013] [error] [client 127.0.0.1] The template "showSuccess..php" does not exist or is unreadable in "".
+[Thu Feb 14 22:58:29 2013] [error] [client 127.0.0.1] The template "_show.php" does not exist or is unreadable in "".
+[Thu Feb 14 22:58:45 2013] [error] [client 127.0.0.1] The template "_show.php" does not exist or is unreadable in "".
+[Thu Feb 14 23:17:15 2013] [error] [client 127.0.0.1] The template "show{"key":"v1"}.php" does not exist or is unreadable in "".
+[Thu Feb 14 23:25:34 2013] [error] [client 127.0.0.1] The template "show{"key":"v1"}.php" does not exist or is unreadable in "".
+[Thu Feb 14 23:36:46 2013] [error] [client 127.0.0.1] Call to undefined method sfWebResponse::setCharset.
+[Thu Feb 14 23:42:11 2013] [error] [client 127.0.0.1] The template "show{"key":"<div id=\\"block-text\\">\\n    <%= content %>\\n<\\/div>"}.php" does not exist or is unreadable in "".
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:33, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:33, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:33, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php/
+[Fri Feb 15 01:01:23 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:33, referer: http://sft.loc/frontend_dev.php/
+[Sat Feb 16 01:49:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 16 13:15:41 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 16 15:24:01 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 16 15:24:01 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 16 21:23:55 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sun Feb 17 00:23:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/js/apps/model/block.js" (/)., referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 00:23:52 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/js/apps/model/block.js" (/)., referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 18:44:42 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:04:07 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:33, referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:45:10 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/index" (/)., referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:46:40 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/index" (/)., referer: http://sft.loc/frontend_dev.php/
+[Sun Feb 17 21:47:00 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/index" (/)., referer: http://sft.loc/frontend_dev.php/
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php on line 51, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:04:30 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php on line 52, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:05:46 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:09:38 2013] [error] [client 127.0.0.1] Unknown record property / related component "getType" on "Block", referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:17:59 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 18 00:18:02 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 18 00:19:33 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function typeof() in /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php on line 52, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:16 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function typeof() in /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php on line 52, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward($moduleName = *uninitialized*, $actionName = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction($filterChain = *uninitialized*, $actionInstance = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction($actionInstance = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute($request = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow($request = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:22:38 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP Fatal error:  [] operator not supported for strings in /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php on line 55, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward($moduleName = *uninitialized*, $actionName = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction($filterChain = *uninitialized*, $actionInstance = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction($actionInstance = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute($request = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow($request = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:23:35 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP Fatal error:  [] operator not supported for strings in /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php on line 55, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward($moduleName = *uninitialized*, $actionName = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute($filterChain = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction($filterChain = *uninitialized*, $actionInstance = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction($actionInstance = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute($request = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:26 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow($request = *uninitialized*) /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php?XDEBUG_SESSION_START=14245
+[Mon Feb 18 00:24:27 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 18 00:25:57 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 18 22:22:25 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 18 23:17:20 2013] [error] [client 127.0.0.1] Call to undefined method pageActions::getType., referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 23:18:18 2013] [error] [client 127.0.0.1] Call to undefined method pageActions::getType., referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 23:23:20 2013] [error] [client 127.0.0.1] Call to undefined method pageActions::getType., referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 23:27:39 2013] [error] [client 127.0.0.1] Unknown record property / related component "link_block_view" on "TextList", referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 23:30:09 2013] [error] [client 127.0.0.1] The route "block_show" does not exist., referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 23:33:39 2013] [error] [client 127.0.0.1] The route "block_show" does not exist., referer: http://sft.loc/frontend_dev.php
+[Mon Feb 18 23:33:55 2013] [error] [client 127.0.0.1] Remove is not supported for Block, referer: http://sft.loc/frontend_dev.php
+[Thu Feb 21 00:52:23 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 21 01:17:12 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/1.php" (/).
+[Sat Feb 23 03:06:51 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 23 22:59:56 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Feb 23 22:59:58 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sun Feb 24 21:17:44 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sun Feb 24 23:42:26 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Feb 25 23:26:16 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Tue Feb 26 23:51:13 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 28 00:43:12 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Thu Feb 28 23:47:37 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Fri Mar 01 22:25:29 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Mar 02 11:55:56 2013] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php on line 58, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 14:04:25 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:34:49 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:42, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function getData() on a non-object in /var/www/sft.loc/prj/lib/model/doctrine/PageTable.class.php on line 39, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/sft.loc/prj/web/index.php:0, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   2. sfContext->dispatch() /var/www/sft.loc/prj/web/index.php:7, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   3. sfFrontWebController->dispatch() /var/www/sft.loc/prj/lib/vendor/symfony/lib/util/sfContext.class.php:170, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   4. sfController->forward() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:2352, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   5. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:665, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   6. sfRenderingFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   7. sfFilterChain->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:995, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   8. sfExecutionFilter->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:1031, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP   9. sfExecutionFilter->handleAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:933, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP  10. sfExecutionFilter->executeAction() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:947, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP  11. sfActions->execute() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:952, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP  12. pageActions->executeShow() /var/www/sft.loc/prj/cache/frontend/prod/config/config_core_compile.yml.php:459, referer: http://sft.loc/frontend_dev.php
+[Sat Mar 02 19:38:10 2013] [error] [client 127.0.0.1] PHP  13. PageTable->getPageByName() /var/www/sft.loc/prj/apps/frontend/modules/page/actions/actions.class.php:42, referer: http://sft.loc/frontend_dev.php

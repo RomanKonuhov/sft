@@ -93,7 +93,7 @@ a:hover {
     border: 1px solid #333;
     margin: 3px;
     padding: 5px;
-    display: none;
+    /*display: none;*/
 }
 
 #contextmenu ul {

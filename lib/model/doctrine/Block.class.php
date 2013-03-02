@@ -12,6 +12,16 @@
  */
 class Block extends BaseBlock
 {
+    const TYPE_TEXT = 'text';
+    const TYPE_MEDIA = 'media';
+    const TYPE_TEXT_LIST = 'text_list';
+    const TYPE_MEDIA_LIST = 'media_list';
+    const TYPE_MENU = 'menu';
+    const TYPE_SEARCH = 'search';
+    const TYPE_TEXT_LIST_LINK = 'text_list_link';
+    const TYPE_MEDIA_LINK = 'media_link';
+
+
     public function preSave($event)
     {
         if ($this->getParentId() == 0) {
