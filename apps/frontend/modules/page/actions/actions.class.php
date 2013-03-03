@@ -46,24 +46,29 @@ class pageActions extends sfActions
 
         $result = array();
         foreach ($this->blocks as $b){
-            $r = array();
-            $r['block'] = $b->getData();
-            $r['template'] = $this->getPartial('page/'.$b->getType());
-            $content = array();
-            if ($b->getType() != Block::TYPE_TEXT) {
-                foreach ($b->getContent() as $c) {
-                    $data = $c->getData();
-                    $data['date'] = $c->getDateTimeObject('created_at')->format('d/m/Y');
-                    $data['link_block_view'] = '/block/view/'.$c->getId();//$this->generateUrl('page', $b);
-                    $content[] = $data;
-                }
-            } else {
-                $content = $b->getContent();
-            }
-            $r['bid'] = $b->getParentId();
-            $r['content'] = $content;
-            $result[] = $r;
+            $data = $b->getData();
+            $data['css'] = json_decode($b->getCss());
+            $data['template'] = $this->getPartial('page/'.$b->getType());
+            $result[] = $data;
         }
+//            $r = array();
+//            $r['block'] = $b->getData();
+//            $r['template'] = $this->getPartial('page/'.$b->getType());
+//            $content = array();
+//            if ($b->getType() != Block::TYPE_TEXT) {
+//                foreach ($b->getContent() as $c) {
+//                    $data = $c->getData();
+//                    $data['date'] = $c->getDateTimeObject('created_at')->format('d/m/Y');
+//                    $data['link_block_view'] = '/block/view/'.$c->getId();//$this->generateUrl('page', $b);
+//                    $content[] = $data;
+//                }
+//            } else {
+//                $content = $b->getContent();
+//            }
+//            $r['bid'] = $b->getParentId();
+//            $r['content'] = $content;
+//            $result[] = $r;
+//        }
 
         $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
         return $this->renderText(json_encode($result));

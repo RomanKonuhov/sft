@@ -62,7 +62,7 @@ class Block extends BaseBlock
     }
 
 
-    public function getCssAsString()
+    public function getDecodedCss()
     {
         $css = new Css();
         $css->decode($this->getCss());

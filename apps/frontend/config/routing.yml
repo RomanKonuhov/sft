@@ -16,7 +16,6 @@ block:
   options:
     model: Block
 
-
 page_show:
   url: /:name
   param:
