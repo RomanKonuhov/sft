@@ -25,6 +25,7 @@ class pageActions extends sfActions
 
     public function executeShow(sfWebRequest $request)
     {
+        //var_dump($this->getRoute()->getObject());exit;
 //        $data = array(
 //            'title' => 'SNews_1',
 //            'date' => date('d-m-Y', time()),
@@ -32,7 +33,7 @@ class pageActions extends sfActions
 //        );
 //
 //        return $this->renderText(json_encode($data));
-
+        //$this->forward404Unless($request->isXmlHttpRequest());
 
         $pageName = $request->getParameter('name');
         if (!$pageName) {

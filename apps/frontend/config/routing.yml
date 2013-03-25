@@ -22,17 +22,17 @@ page_show:
     module: page
     action: show
   options:
-    model: Block
+    model: Page
     type: object
   class: sfDoctrineRoute
   requirements:
     id: \d+
 
 block_view:
-  url: /:header/:id
+  url: /:header/block/:block_id/view/:id
   param:
-    module: page
-    action: show
+    module: block
+    action: view
   options:
     model: Block
     type: object

@@ -22,12 +22,19 @@ class blockActions extends sfActions
     {
         $block = $this->getRoute()->getObject();
 
+        $page = Doctrine_Query::create()
+            ->select()
+            ->from('Page p')
+            ->leftJoin('p.Blocks b')
+            ->where('b.id = ?', $block->getId())
+            ->fetchOne();
+
         $result = array();
         if ($block->getType() != Block::TYPE_TEXT) {
             foreach ($block->getContent() as $c) {
                 $data = $c->getData();
                 $data['date'] = $c->getDateTimeObject('created_at')->format('d/m/Y');
-                $data['link_block_view'] = '/block/view/'.$c->getId();//$this->generateUrl('page', $b);
+                $data['link_block_view'] = '#'.Tools::urlencode($page->getName()).'/block/'.$block->getId().'/view/'.$c->getId();//$this->generateUrl('page', $b);
                 $result[] = $data;
             }
         } else {
@@ -36,6 +43,16 @@ class blockActions extends sfActions
 
         $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
         return $this->renderText(json_encode($result));
+    }
+
+
+    public function executeView(sfWebRequest $request)
+    {
+        $block = Doctrine_Core::getTable('Block')->find($request->getParameter('block_id'));
+        $this->forward404Unless($block);
+        $content = $block->getContent($request->getParameter('id'))->getData();
+        $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
+        return $this->renderText(json_encode($content));
     }
 
 
@@ -75,10 +92,10 @@ class blockActions extends sfActions
 
     public function executeDelete(sfWebRequest $request)
     {
-        $request->checkCSRFProtection();
-
+        //$request->checkCSRFProtection();
+var_dump('here');exit;
         $this->forward404Unless($block = Doctrine_Core::getTable('Block')->find(array($request->getParameter('id'))), sprintf('Object block does not exist (%s).', $request->getParameter('id')));
-        $block->delete();
+        //$block->delete();
 
         $this->redirect('block/index');
     }
