@@ -1,4 +1,4 @@
-cache/*
+cache/
 .idea/
 logs/
 log/
