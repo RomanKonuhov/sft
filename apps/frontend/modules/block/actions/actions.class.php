@@ -51,6 +51,7 @@ class blockActions extends sfActions
         $block = Doctrine_Core::getTable('Block')->find($request->getParameter('block_id'));
         $this->forward404Unless($block);
         $content = $block->getContent($request->getParameter('id'))->getData();
+        $content['link_block_view'] = '';
         $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
         return $this->renderText(json_encode($content));
     }

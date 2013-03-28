@@ -1,3 +1,0 @@
-<td colspan="4">
-  <?php echo __('<div class="row">Block %%header%% on the %%page%%<br /><span class="status">Type: %%type%%</span><br><div class="clear"></div><span class="status">Is visible: %%visible%%</span><br><span class="timestamp">Created at %%created_at%%</span></div>', array('%%header%%' => link_to($block->getHeader(), 'block_edit', $block), '%%page%%' => $block->getPage(), '%%type%%' => $block->getType(), '%%visible%%' => get_partial('block/list_field_boolean', array('value' => $block->getVisible())), '%%created_at%%' => false !== strtotime($block->getCreatedAt()) ? format_date($block->getCreatedAt(), "f") : '&nbsp;'), 'messages') ?>
-</td>

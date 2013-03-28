@@ -18,6 +18,12 @@ body {
     border: 0;
 }
 
+.content {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+}
+
 .clear {
     clear: both;
 }
@@ -115,4 +121,29 @@ a:hover {
 #contextmenu li:hover {
     background: #d8f8ff;
     cursor: pointer;
+}
+
+#curtain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    background: #999;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-left: -300px;
+    margin-top: -200px;
+    left: 50%;
+    top: 50%;
+    background: white;
+    z-index: 10001;
+    border: 1px solid #666;
+    padding: 10px;
 }

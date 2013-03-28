@@ -12,4 +12,14 @@
  */
 class Media extends BaseMedia
 {
+    /**
+     * Substitute field 'header' instead 'filename'
+     * in order to save persistence in templates
+     *
+     * @return varchar
+     */
+    public function getHeader()
+    {
+        return $this->getFilename();
+    }
 }

@@ -16,6 +16,11 @@ block:
   options:
     model: Block
 
+content:
+  class: sfDoctrineRouteCollection
+  options:
+    model: Content
+
 page_show:
   url: /:name
   param:
@@ -29,7 +34,7 @@ page_show:
     id: \d+
 
 block_view:
-  url: /:header/block/:block_id/view/:id
+  url: /block/:block_id/view/:id
   param:
     module: block
     action: view

@@ -8,14 +8,9 @@ var App = App || {};
 
 
 $(document).ready(function() {
-Model.page = Backbone.Model.extend({
-    url: function() {
-        return Global.baseURL + '/block/'+this.id
-    }
-});
 
-Model.block = Backbone.Model.extend({
-    urlRoot: Global.baseURL + '/block',
+Model.page = Backbone.Model.extend({
+    url: Global.baseURL + '/page'
 //    url: function() {
 //        if (this.isNew()) {
 //            return '/block';
@@ -23,12 +18,25 @@ Model.block = Backbone.Model.extend({
 //            return '/block/'+this.id;
 //        }
 //    },
+});
+
+
+
+Model.block = Backbone.Model.extend({
+    url: function() {
+        if (this.get('item_id')) {
+            return Global.baseURL + '/block/'+this.id+'/view/'+this.get('item_id');
+        }
+        return Global.baseURL + '/block/'+this.id;
+    },
     defaults: {
+        css: '',
         content: '',
         template: ''
     }
 
 });
+
 
 
 Collection.block = Backbone.Collection.extend({
@@ -50,7 +58,7 @@ Collection.page = Backbone.Collection.extend({
     url: function() {
         return Global.baseURL + '/'+this.models[0].get('page_name');
     },
-    model: Model.page,
+    model: Model.block,
 
     comparator: function(model) {
         return model.get('parent_id');
@@ -60,6 +68,8 @@ Collection.page = Backbone.Collection.extend({
 
 
 var Router = Backbone.Router.extend({
+    lastPageName: '',
+    view: {},
     routes: {
         "" : "page",
         ":name": "page",
@@ -81,7 +91,16 @@ var Router = Backbone.Router.extend({
             options = {page_name: arguments[1], block_id: arguments[2], item_id: arguments[3]};
         }
         if (!_.isUndefined(ViewCollection[view])) {
-            new ViewCollection[view](options);
+            if (this.lastPageName == options['page_name']) {
+                console.info('old page')
+                this.view.options = options;
+                this.view.update();
+                //this.view.render();
+            } else {
+                console.info('new page')
+                this.view = new ViewCollection[view](options);
+                this.lastPageName = options['page_name'];
+            }
         } else {
             console.log('ROUTER ERROR:', arguments);
         }
