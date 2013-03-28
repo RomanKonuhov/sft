@@ -253,7 +253,7 @@ ViewCollection.blockTextList = ViewCollection.blockBase.extend({
     uri_parameters: {},
 
     initialize: function() {
-        this.uri_parameters = this.options.uri_parameters;
+        this.uri_parameters = this.options.uri_parameters
         ViewCollection.blockBase.prototype.initialize.apply(this, arguments);
     },
 
@@ -350,8 +350,9 @@ ViewCollection.page = Backbone.View.extend({
     },
 
     update: function() {
+        console.log('update model', this.collection.where({id: parseInt(this.options.block_id)})[0]);
         if (this.options.block_id) {
-            var model = this.collection.where({id: this.options.block_id})[0];
+            var model = this.collection.where({id: parseInt(this.options.block_id)})[0];
             model.set({showContent: true});
         } else {
             var model = this.collection.where({'showContent': true})[0];

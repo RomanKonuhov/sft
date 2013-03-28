@@ -71,8 +71,8 @@ var Router = Backbone.Router.extend({
     lastPageName: '',
     view: {},
     routes: {
-        "" : "page",
-        ":name": "page",
+        //"" : "page",
+        //":name": "page",
         ":name/block/:block_id/view/:id" : "page"
     },
 
@@ -88,7 +88,11 @@ var Router = Backbone.Router.extend({
         if (arguments.length < 3) {
             options['page_name'] = arguments[1] ? arguments[1] : 'index';
         } else {
-            options = {page_name: arguments[1], block_id: arguments[2], item_id: arguments[3]};
+            options = {
+                page_name: arguments[1],
+                block_id: parseInt(arguments[2], 10),
+                item_id: parseInt(arguments[3], 10)
+            };
         }
         if (!_.isUndefined(ViewCollection[view])) {
             if (this.lastPageName == options['page_name']) {
