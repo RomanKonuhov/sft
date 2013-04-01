@@ -44,19 +44,26 @@ Model.block = Backbone.Model.extend({
     },
 
     save: function(model) {
+        var self = this;
         if (!model) {
             var data = this.toJSON();
         } else {
             var data = model;
         }
-        console.log('custom call', data)
+        console.log('custom call', this.toJSON())
         $.ajax({
             url: this.url(),
             type: 'put',
             data: data,
             dataType: 'json',
             success: function(data) {
-                console.log(data);
+                if (data['success']) {
+                    self.set(data['data']);
+                } else {
+                    Helper.Error.show({'message': data['data']});
+                }
+                self.collection.trigger('update', self);
+                console.log('self',self);
             }
         });
     }
@@ -142,15 +149,15 @@ var Router = Backbone.Router.extend({
         } else {
             options = {
                 page_name: arguments[1],
-                block_id: arguments[2],
-                item_id: arguments[3]
+                block_id: parseInt(arguments[2]),
+                item_id: parseInt(arguments[3])
             };
         }
         if (!_.isUndefined(ViewCollection[view])) {
             if (this.lastPageName == options['page_name']) {
                 console.info('old page')
                 this.view.options = options;
-                this.view.update();
+                this.view.switchView();
                 //this.view.render();
             } else {
                 console.info('new page')

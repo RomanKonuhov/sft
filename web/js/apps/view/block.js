@@ -1,6 +1,7 @@
 var View = View || {};
 var ViewCollection = ViewCollection || {};
 var Tools = Tools || {};
+var Helper = Helper || {};
 
 
 Tools.Form = Backbone.Model.extend({
@@ -35,6 +36,17 @@ Tools.Form = Backbone.Model.extend({
         return bareData;
     }
 });
+
+
+Helper.Error = {
+    show: function(options) {
+        var message = "Error occured";
+        if (!_.isUndefined(options.message)) {
+            message = options.message;
+        }
+        alert(message);
+    }
+};
 
 
 
@@ -308,6 +320,7 @@ ViewCollection.blockTextList = ViewCollection.blockBase.extend({
 
     initialize: function() {
         this.uri_parameters = this.options.uri_parameters;
+        $(this.el).html('');
         ViewCollection.blockBase.prototype.initialize.apply(this, arguments);
     },
 
@@ -388,6 +401,7 @@ ViewCollection.page = Backbone.View.extend({
         this.collection.fetch();
         this.collection.bind('add', this.appendItem);
         this.collection.bind('reset', this.render);
+        this.collection.bind('update', this.update);
         this.collection.bind('remove', this.remove);
     },
 
@@ -403,19 +417,31 @@ ViewCollection.page = Backbone.View.extend({
         return this;
     },
 
-    update: function() {
+    switchView: function() {
         if (this.options.block_id) {
+            console.log('update collection', this.collection)
             var model = this.collection.where({id: this.options.block_id})[0];
+            console.log('update model', model)
             model.set({showContent: true});
         } else {
             var model = this.collection.where({'showContent': true})[0];
             model.set({showContent: false});
         }
+        this.update(model);
+    },
+
+    getBlock: function(model) {
+        var block = null;
         switch (model.get('type')) {
-            case 'text' : block = new View.blockText({block: _.clone(model)}); break;
-            case 'text_list' : block = new ViewCollection.blockTextList({block: _.clone(model), uri_parameters: this.options}); break;
-            case 'media' : block = new ViewCollection.blockMedia({block: _.clone(model)}); break;
+            case 'text' : block = new View.blockText({block: model}); break;
+            case 'text_list' : block = new ViewCollection.blockTextList({block: model, uri_parameters: this.options}); break;
+            case 'media' : block = new ViewCollection.blockMedia({block: model}); break;
         }
+        return block;
+    },
+
+    update: function(model) {
+        var block = this.getBlock(_.clone(model));
         model.view.$el.html(block.el);
     },
 
@@ -424,12 +450,7 @@ ViewCollection.page = Backbone.View.extend({
     },
 
     appendItem: function(model) {
-        var block = null;
-        switch (model.get('type')) {
-            case 'text' : block = new View.blockText({block: model}); break;
-            case 'text_list' : block = new ViewCollection.blockTextList({block: model, uri_parameters: this.options}); break;
-            case 'media' : block = new ViewCollection.blockMedia({block: model}); break;
-        }
+        var block = this.getBlock(model);
         if (block != null) {
             if (model.get('css').float && model.get('css').float == 'none') {
                 $(this.el).append($('<div>').addClass('clear'));

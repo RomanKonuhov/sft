@@ -69,23 +69,54 @@ class Block extends BaseBlock
         return $css;
     }
 
-
+    /**
+     * Get block's content
+     *
+     * @param null $id
+     * @return mixed
+     */
     public function getContent($id = null)
     {
         return $this->getInstance()->getContent($id);
     }
 
-
+    /**
+     * Get child blocks
+     *
+     * @return mixed
+     */
     public function getChilds()
     {
         return Doctrine_Core::getTable('Block')->getChilds($this->getPageId(), $this->getId());
     }
 
-
+    /**
+     * Check if the block has child blocks
+     *
+     * @return int
+     */
     public function hasChilds()
     {
         $childs = $this->getChilds();
         return count($childs);
+    }
+
+    /**
+     * Get full data of block including templates(view and edit)
+     *
+     * @param sfActions $action
+     * @return array
+     */
+    public function getFullData(sfActions $action)
+    {
+        $data = $this->getData();
+        $form = new BlockForm($this);
+
+        $data['css'] = json_decode($this->getCss());
+        $data['template'] = $action->getPartial('page/'.$this->getType());
+        $data['edit_template'] = $action->getPartial('block/form', array('form' => $form));
+
+        return $data;
     }
 
 }

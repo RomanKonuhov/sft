@@ -47,14 +47,7 @@ class pageActions extends sfActions
 
         $result = array();
         foreach ($this->blocks as $b){
-            $data = $b->getData();
-            $data['css'] = json_decode($b->getCss());
-            $data['template'] = $this->getPartial('page/'.$b->getType());
-
-            $form = new BlockForm($b);
-            $data['edit_template'] = $this->getPartial('block/form', array('form' => $form));
-
-            $result[] = $data;
+            $result[] = $b->getFullData($this);
         }
 //            $r = array();
 //            $r['block'] = $b->getData();

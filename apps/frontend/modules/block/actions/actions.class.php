@@ -84,9 +84,7 @@ class blockActions extends sfActions
     {
         $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
         $this->forward404Unless($block = Doctrine_Core::getTable('Block')->find(array($request->getParameter('id'))), sprintf('Object block does not exist (%s).', $request->getParameter('id')));
-        //$form->getObject()->setData(Tools::prefixData('block', $form->getObject()->getData()));
         $this->form = new BlockForm($block);
-        $params = $request->getPostParameters();
 
 //        $put_str = json_decode($request->getContent());
 //        $data = array();
@@ -94,9 +92,7 @@ class blockActions extends sfActions
 //            $data['block['.$k.']'] = $v;
 //        }
 
-        $this->processForm($request, $this->form);
-
-        $this->setTemplate('edit');
+        return $this->processForm($request, $this->form);
     }
 
     public function executeDelete(sfWebRequest $request)
@@ -106,18 +102,20 @@ var_dump('here');exit;
         $this->forward404Unless($block = Doctrine_Core::getTable('Block')->find(array($request->getParameter('id'))), sprintf('Object block does not exist (%s).', $request->getParameter('id')));
         //$block->delete();
 
-        $this->redirect('block/index');
+        //$this->redirect('block/index');
     }
 
     protected function processForm(sfWebRequest $request, sfForm $form)
     {
+        $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
         $formName = $form->getName();
         $params = $request->getParameter($formName);
         $form->bind($params, $request->getFiles($form->getName()));
         if ($form->isValid()) {
             $block = $form->save();
-
+            return $this->renderText(json_encode(array('success' => true, 'data' => $block->getFullData($this))));
             //$this->redirect('block/edit?id=' . $block->getId());
         }
+        return $this->renderText(json_encode(array('success' => false, 'data' => "Can't save the block")));
     }
 }
