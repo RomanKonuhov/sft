@@ -50,6 +50,10 @@ class pageActions extends sfActions
             $data = $b->getData();
             $data['css'] = json_decode($b->getCss());
             $data['template'] = $this->getPartial('page/'.$b->getType());
+
+            $form = new BlockForm($b);
+            $data['edit_template'] = $this->getPartial('block/form', array('form' => $form));
+
             $result[] = $data;
         }
 //            $r = array();

@@ -124,7 +124,7 @@ a:hover {
 }
 
 #curtain {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     opacity: 0.85;
@@ -146,4 +146,11 @@ a:hover {
     z-index: 10001;
     border: 1px solid #666;
     padding: 10px;
+    font: normal 11px "sans-serif";
+}
+
+.modal-window input,
+.modal-window textarea,
+.modal-window select {
+    font: normal 11px "sans-serif";
 }

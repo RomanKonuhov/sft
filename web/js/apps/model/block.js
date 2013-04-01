@@ -1,3 +1,6 @@
+//Backbone.emulateHTTP = true;
+Backbone.emulateJSON = true;
+
 var Global = {
     baseURL: '/frontend_dev.php'
 };
@@ -23,17 +26,66 @@ Model.page = Backbone.Model.extend({
 
 
 Model.block = Backbone.Model.extend({
+    defaults: {
+        css: '',
+        content: '',
+        template: ''
+    },
+
+    initialize: function() {
+        _.bindAll(this);
+    },
+
     url: function() {
         if (this.get('item_id')) {
             return Global.baseURL + '/block/'+this.id+'/view/'+this.get('item_id');
         }
         return Global.baseURL + '/block/'+this.id;
     },
-    defaults: {
-        css: '',
-        content: '',
-        template: ''
+
+    save: function(model) {
+        if (!model) {
+            var data = this.toJSON();
+        } else {
+            var data = model;
+        }
+        console.log('custom call', data)
+        $.ajax({
+            url: this.url(),
+            type: 'put',
+            data: data,
+            dataType: 'json',
+            success: function(data) {
+                console.log(data);
+            }
+        });
     }
+/*
+    sync: function(method, model, options) {
+        console.log('method',method)
+        if (method == 'update') {
+            var _data = model.attributes,
+                data = {};
+            _data['edit_template'] =  '';
+            _data['template'] =  '';
+            for (var i in _data) {
+                data['block['+i+']'] = _data[i];
+            }
+            console.log('custom call', model)
+            $.ajax({
+                url: this.url(),
+                type: 'put',
+                data: data,
+                dataType: 'json',
+                success: function(data) {
+                    console.log(data);
+                }
+            });
+        } else {
+            Backbone.sync(method, model, options);
+        }
+    }
+*/
 
 });
 
@@ -88,7 +140,11 @@ var Router = Backbone.Router.extend({
         if (arguments.length < 3) {
             options['page_name'] = arguments[1] ? arguments[1] : 'index';
         } else {
-            options = {page_name: arguments[1], block_id: arguments[2], item_id: arguments[3]};
+            options = {
+                page_name: arguments[1],
+                block_id: arguments[2],
+                item_id: arguments[3]
+            };
         }
         if (!_.isUndefined(ViewCollection[view])) {
             if (this.lastPageName == options['page_name']) {

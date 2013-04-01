@@ -36,4 +36,14 @@ class Tools
     {
         return str_replace('_', '-', $text);
     }
+
+
+    static public function prefixData($prefix, $data)
+    {
+        $result = array();
+        foreach ($data as $k => $v) {
+            $result[$prefix.'['.$k.']'] = $v;
+        }
+        return $result;
+    }
 }

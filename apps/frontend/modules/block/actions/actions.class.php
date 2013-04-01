@@ -84,7 +84,15 @@ class blockActions extends sfActions
     {
         $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
         $this->forward404Unless($block = Doctrine_Core::getTable('Block')->find(array($request->getParameter('id'))), sprintf('Object block does not exist (%s).', $request->getParameter('id')));
+        //$form->getObject()->setData(Tools::prefixData('block', $form->getObject()->getData()));
         $this->form = new BlockForm($block);
+        $params = $request->getPostParameters();
+
+//        $put_str = json_decode($request->getContent());
+//        $data = array();
+//        foreach ($put_str as $k => $v) {
+//            $data['block['.$k.']'] = $v;
+//        }
 
         $this->processForm($request, $this->form);
 
@@ -103,11 +111,13 @@ var_dump('here');exit;
 
     protected function processForm(sfWebRequest $request, sfForm $form)
     {
-        $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName()));
+        $formName = $form->getName();
+        $params = $request->getParameter($formName);
+        $form->bind($params, $request->getFiles($form->getName()));
         if ($form->isValid()) {
             $block = $form->save();
 
-            $this->redirect('block/edit?id=' . $block->getId());
+            //$this->redirect('block/edit?id=' . $block->getId());
         }
     }
 }

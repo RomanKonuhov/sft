@@ -1,12 +1,56 @@
 var View = View || {};
 var ViewCollection = ViewCollection || {};
+var Tools = Tools || {};
+
+
+Tools.Form = Backbone.Model.extend({
+    form: {},
+
+    initialize: function() {
+        _.bindAll(this);
+        if (!this.form) {
+            return this.form;
+        }
+        this.form = this.get('form');
+    },
+
+    getData: function() {
+        var data = {},
+            sd = this.form.serializeArray(); // sd - serialized data
+        for (var i in sd) {
+            data[sd[i]['name']] = sd[i]['value'];
+        }
+        return data;
+    },
+
+    getBareData: function() {
+        var data = this.getData();
+        var re = /\w+\[([\w\d]+)\]/,
+            bareData = {};
+        _.each(data, function(v, k) {
+            var match = re.exec(k);
+            k = match ? match[1] : k;
+            bareData[k] = v;
+        });
+        return bareData;
+    }
+});
+
+
 
 View.modalWindow = Backbone.View.extend({
     className: 'modal-window',
     curtainId: 'curtain',
+    template: '',
+    cb: null,
+    events: {
+        'submit form' : 'saveModel'
+    },
 
     initialize: function() {
         _.bindAll(this);
+        this.template = this.options.template;
+        this.cb = this.options.cb;
         this.removeAllModal();
         this.render();
     },
@@ -20,6 +64,16 @@ View.modalWindow = Backbone.View.extend({
         var curtain = $('<div>').attr('id', this.curtainId);
         $('body').append(curtain).append(this.el);
         $('#'+this.curtainId).click(this.removeAllModal);
+        $(this.el).append(this.template);
+    },
+
+    saveModel: function() {
+        if (_.isFunction(this.cb)) {
+            var formData = new Tools.Form({form: $(this.el).find('form')}).getData();
+            //console.log(formData)
+            this.cb(formData);
+        }
+        return false;
     }
 });
 
@@ -74,7 +128,7 @@ View.contextmenu = Backbone.View.extend({
 
     editBlock: function(e) {
         this.remove();
-        new View.modalWindow();
+        new View.modalWindow({template: this.block.get('edit_template'), cb: this.block.save});
         //console.log(e, this.block.id)
     },
 
