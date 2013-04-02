@@ -110,11 +110,13 @@ class Block extends BaseBlock
     public function getFullData(sfActions $action)
     {
         $data = $this->getData();
-        $form = new BlockForm($this);
+        $editForm = new BlockForm($this);
+        $newForm = new BlockForm();
 
         $data['css'] = json_decode($this->getCss());
         $data['template'] = $action->getPartial('page/'.$this->getType());
-        $data['edit_template'] = $action->getPartial('block/form', array('form' => $form));
+        $data['edit_template'] = $action->getPartial('block/form', array('form' => $editForm));
+        $data['new_template'] = $action->getPartial('block/form', array('form' => $newForm));
 
         return $data;
     }

@@ -134,8 +134,8 @@ View.contextmenu = Backbone.View.extend({
 
     addBlock: function(e) {
         this.remove();
-        new View.modalWindow();
-        console.log(e, this.block.id)
+        new View.modalWindow({template: this.block.get('new_template'), cb: function() {alert('not implemented')}});
+        //console.log(e, this.block.id)
     },
 
     editBlock: function(e) {
@@ -428,6 +428,19 @@ ViewCollection.page = Backbone.View.extend({
             model.set({showContent: false});
         }
         this.update(model);
+//        var block = this.getBlock(_.clone(model));
+//        model.view.$el.html(block.el);
+    },
+
+    update: function(model) {
+        var oldModel = _.clone(model);
+        var block = this.getBlock(model);
+        oldModel.view.$el.replaceWith(block.el);
+        delete(oldModel);
+    },
+
+    remove: function(model) {
+        model.view.$el.remove();
     },
 
     getBlock: function(model) {
@@ -440,19 +453,10 @@ ViewCollection.page = Backbone.View.extend({
         return block;
     },
 
-    update: function(model) {
-        var block = this.getBlock(_.clone(model));
-        model.view.$el.html(block.el);
-    },
-
-    remove: function(model) {
-        model.view.$el.remove();
-    },
-
     appendItem: function(model) {
         var block = this.getBlock(model);
         if (block != null) {
-            if (model.get('css').float && model.get('css').float == 'none') {
+            if (model.get('css') && model.get('css').float && model.get('css').float == 'none') {
                 $(this.el).append($('<div>').addClass('clear'));
             }
             $(this.el).append(block.el);
@@ -460,22 +464,18 @@ ViewCollection.page = Backbone.View.extend({
     }
 
 
-
     /*
      View.page = Backbone.View.extend({
-     render: function() {
-     var block = this.model.get('block');
-     var content = this.model.get('content');
-     var template = this.model.get('template');
-     _.each(content, function(_content) {
-     var templateHtml = _.template(template, _content);
-     $(this.el).append(templateHtml);
-     })
-     //console.log(templateHtml)
-     return this;
-     }
+         render: function() {
+             var block = this.model.get('block');
+             var content = this.model.get('content');
+             var template = this.model.get('template');
+             _.each(content, function(_content) {
+             var templateHtml = _.template(template, _content);
+             $(this.el).append(templateHtml);
+             })
+             return this;
+         }
      });
      */
-
-
 });

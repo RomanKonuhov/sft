@@ -50,7 +50,6 @@ Model.block = Backbone.Model.extend({
         } else {
             var data = model;
         }
-        console.log('custom call', this.toJSON())
         $.ajax({
             url: this.url(),
             type: 'put',
@@ -63,7 +62,7 @@ Model.block = Backbone.Model.extend({
                     Helper.Error.show({'message': data['data']});
                 }
                 self.collection.trigger('update', self);
-                console.log('self',self);
+                //console.log('self',self);
             }
         });
     }
@@ -155,12 +154,12 @@ var Router = Backbone.Router.extend({
         }
         if (!_.isUndefined(ViewCollection[view])) {
             if (this.lastPageName == options['page_name']) {
-                console.info('old page')
+                //console.info('old page')
                 this.view.options = options;
                 this.view.switchView();
                 //this.view.render();
             } else {
-                console.info('new page')
+                //console.info('new page')
                 this.view = new ViewCollection[view](options);
                 this.lastPageName = options['page_name'];
             }

@@ -65,14 +65,21 @@ class blockActions extends sfActions
 
     public function executeCreate(sfWebRequest $request)
     {
-        $this->forward404Unless($request->isMethod(sfRequest::POST));
+        $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
+        if (!$request->isMethod(sfRequest::POST)) {
+            return $this->renderText(json_encode(array('success' => false, 'data' => "Wrong request")));
+        }
 
         $this->form = new BlockForm();
 
-        $this->processForm($request, $this->form);
+        $block = $this->processForm($request, $this->form);
+        if (!$block) {
+            return $this->renderText(json_encode(array('success' => false, 'data' => "Can't save the block")));
+        }
 
-        $this->setTemplate('new');
+        return $this->renderText(json_encode(array('success' => true, 'data' => $block->getFullData($this))));
     }
+
 
     public function executeEdit(sfWebRequest $request)
     {
@@ -80,42 +87,54 @@ class blockActions extends sfActions
         $this->form = new BlockForm($block);
     }
 
+
     public function executeUpdate(sfWebRequest $request)
     {
-        $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
-        $this->forward404Unless($block = Doctrine_Core::getTable('Block')->find(array($request->getParameter('id'))), sprintf('Object block does not exist (%s).', $request->getParameter('id')));
-        $this->form = new BlockForm($block);
+        $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
+        if (!$request->isMethod(sfRequest::POST) && !$request->isMethod(sfRequest::PUT)) {
+            return $this->renderText(json_encode(array('success' => false, 'data' => "Wrong request")));
+        }
 
-//        $put_str = json_decode($request->getContent());
-//        $data = array();
-//        foreach ($put_str as $k => $v) {
-//            $data['block['.$k.']'] = $v;
-//        }
+        $blockData = Doctrine_Core::getTable('Block')->find(array($request->getParameter('id')));
+        if (!$blockData) {
+            return $this->renderText(json_encode(array('success' => false, 'data' => "Block not found")));
+        }
 
-        return $this->processForm($request, $this->form);
+        $this->form = new BlockForm($blockData);
+
+        $block = $this->processForm($request, $this->form);
+        if (!$block) {
+            return $this->renderText(json_encode(array('success' => false, 'data' => "Can't save the block")));
+        }
+
+        return $this->renderText(json_encode(array('success' => true, 'data' => $block->getFullData($this))));
     }
+
 
     public function executeDelete(sfWebRequest $request)
     {
+        $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
         //$request->checkCSRFProtection();
-var_dump('here');exit;
-        $this->forward404Unless($block = Doctrine_Core::getTable('Block')->find(array($request->getParameter('id'))), sprintf('Object block does not exist (%s).', $request->getParameter('id')));
-        //$block->delete();
 
-        //$this->redirect('block/index');
+        $block = Doctrine_Core::getTable('Block')->find(array($request->getParameter('id')));
+        if (!$block) {
+            return $this->renderText(json_encode(array('success' => false, 'data' => "Block isn't found")));
+        }
+        //$block->delete()
+
+        return $this->renderText(json_encode(array('success' => true, 'data' => "Can't save the block")));
     }
+
 
     protected function processForm(sfWebRequest $request, sfForm $form)
     {
-        $this->getResponse()->setHttpHeader('Content-type', 'application/json; charset=utf8');
-        $formName = $form->getName();
-        $params = $request->getParameter($formName);
-        $form->bind($params, $request->getFiles($form->getName()));
+        $block = null;
+        $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName()));
         if ($form->isValid()) {
             $block = $form->save();
-            return $this->renderText(json_encode(array('success' => true, 'data' => $block->getFullData($this))));
             //$this->redirect('block/edit?id=' . $block->getId());
         }
-        return $this->renderText(json_encode(array('success' => false, 'data' => "Can't save the block")));
+
+        return $block;
     }
 }
